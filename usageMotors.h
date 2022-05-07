@@ -27,7 +27,7 @@ void go_straight (int speed);
 * 			speed	speed desired in step/s
 *
 */
-void move_str_dist(int32_t dist, int speed);
+void move_str_dist(int dist, int speed);
 
 /**
 * @brief   Use this to make the robot turn right with a given speed.

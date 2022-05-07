@@ -14,6 +14,7 @@
 #include <motors.h>
 
 
+
 #define PI                  3.1415926536f
 #define WHEEL_DISTANCE      5.35f    //cm
 #define PERIMETER_EPUCK     78*(PI * WHEEL_DISTANCE)
@@ -23,7 +24,7 @@ void go_straight(int speed){
 	left_motor_set_speed(speed);
 }
 
-void move_str_dist(int32_t dist, int speed){
+void move_str_dist(int dist, int speed){
 	int32_t position = left_motor_get_pos();
 	int32_t cposition = 0;
 	while (cposition < (position + dist*100)){

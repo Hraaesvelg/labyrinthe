@@ -29,5 +29,7 @@ void leds_think(int number);
  */
 void leds_stop(int time);
 
+void up_leds_blink(int time);
+
 #endif /* ACTIONUSER_H_ */
 

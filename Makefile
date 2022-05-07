@@ -14,6 +14,8 @@ CSRC += ./main.c \
 		./trouver_couleur.c\
 		./actionUser.c\
 		./threadMotor.c\
+		./allThreads.c\
+		./threadSelector.c\
 
 #Header folders to include
 INCDIR += 

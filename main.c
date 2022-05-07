@@ -12,6 +12,7 @@
 #include <msgbus/messagebus.h>
 #include <usageMotors.h>
 #include <actionUser.h>
+#include <threadSelector.h>
 #include <chprintf.h>
 #include <sensors/imu.h>
 #include <trouver_couleur.h>
@@ -19,6 +20,7 @@
 #include "ch.h"
 #include "hal.h"
 #include "memory_protection.h"
+#include <allthreads.h>
 #include <main.h>
 
 messagebus_t bus;
@@ -59,7 +61,7 @@ void mouvementRdm(void){
 			distance);
 
 	if (distance > 50 ){
-		all_straight(500);
+		go_straight(500);
 	}
 	else{
 		stopMotors();
@@ -84,65 +86,24 @@ int main(void)
     chSysInit();
     messagebus_init(&bus, &bus_lock, &bus_condvar);/** Inits the Inter Process Communication bus. */
 
-    initialisationLeds(1);
+
     // Initialisation des modules complémentaires
     motors_init();
     serial_start();
     VL53L0X_start();
-
     imu_start();
     calibrate_gyro();
-    //calibrate_acc();
+    cam_start();
 
-    show_panic(700, 3);
+    // fonction de debut
+    initialisationLeds(1);
+    //show_panic(700, 3);
 
     srand(2340);
     /* Boucle d'attente infinie */
     while (1) {
-    	// calcul de la distance
-		int distance = VL53L0X_get_dist_mm();
-		chprintf((BaseSequentialStream *)&SD3, " Distance= %d \r\n", // print the distance mesured in the serial monitor
-				distance);
-		if(distance > 150 ){
-			go_straight(MOTOR_SPEED_LIMIT);
-		}
-		else if(distance<150 && distance>50){
-			go_straight(MOTOR_SPEED_LIMIT/2);
-		}
-		else{
-			stopMotors();
-			leds_stop(500);
-			int distG = 0; int distD=0;
-
-			// capte la distance a gauche
-			turn_left(MOTOR_SPEED_LIMIT/3);
-			chThdSleepMilliseconds(50);
-			distG = VL53L0X_get_dist_mm();
-
-			// capte la distance a droite
-			u_turn(MOTOR_SPEED_LIMIT/3);
-			chThdSleepMilliseconds(50);
-			distD = VL53L0X_get_dist_mm();
-
-			// oriente le robot dans la bonne direction
-			if (distG < 100 && distD < 100){
-				turn_right(MOTOR_SPEED_LIMIT/3);
-				stopMotors();
-				chThdSleepMilliseconds(500);
-			}
-			else if(distD < distG){
-				u_turn(MOTOR_SPEED_LIMIT/3);
-				stopMotors();
-				chThdSleepMilliseconds(500);
-			}
-			else{
-				stopMotors();
-				chThdSleepMilliseconds(500);
-			}
-		}
-		chThdSleepMilliseconds(200);
-
-
+    	//get_image();
+    	select_mode();
     }
 }
 
@@ -186,21 +147,3 @@ void __stack_chk_fail(void)
     		//stopMotors();
     	}*/
 
-    	/*switch (selector){
-			case 0: // Mouvement random et evitement d'obstacles
-				mouvementRdm();
-				break;
-			case 1:
-
-				break;
-			case 2:
-
-				break;
-			case 3:
-
-				break;
-			default:
-				initialisationLeds(1);
-				break;
-		}
-    	stopMotors();*/

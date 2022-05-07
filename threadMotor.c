@@ -18,6 +18,7 @@
 #include "hal.h"
 #include <chprintf.h>
 #include <sensors/VL53L0X/VL53L0X.h>
+#include <main.h>
 #include <msgbus/messagebus.h>
 
 static THD_WORKING_AREA(waThdExplore, 256);
@@ -70,7 +71,7 @@ static THD_FUNCTION(ThdExplore, arg) {
 
 void explorationLabyrinthe(void)
 {
-	chThdCreateStatic(waThdExplore, sizeof(waThdExplore), NORMALPRIO+1, ThdExplore, NULL);
+	chThdCreateStatic(waThdExplore, sizeof(waThdExplore), NORMALPRIO, ThdExplore, NULL);
 }
 
 

@@ -58,4 +58,14 @@ void leds_stop(int time)
 	chThdSleepMilliseconds(time);
 }
 
+void up_leds_blink(int time){
+	clear_leds();
+	for(int8_t i=0; i<=3; i++){
+			set_led(i, 1);
+	}
+	chThdSleepMilliseconds(time);
+	clear_leds();
+	chThdSleepMilliseconds(time);
+
+}
 

@@ -146,9 +146,10 @@ build/obj/threadMotor.o: threadMotor.c \
  c:\users\valentin\desktop\microinf\e-puck2_main-processor\src\sensors\vl53l0x\api\core\inc\vl53l0x_def.h \
  ../e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_platform_log.h \
  ../e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_i2c_platform.h \
- ../e-puck2_main-processor/src/msgbus/messagebus.h \
+ main.h ../e-puck2_main-processor/src/msgbus/messagebus.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\unistd.h \
- c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\sys\unistd.h
+ c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\sys\unistd.h \
+ ../e-puck2_main-processor/src/parameter/parameter.h
 
 c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\stdio.h:
 
@@ -448,8 +449,12 @@ c:\users\valentin\desktop\microinf\e-puck2_main-processor\src\sensors\vl53l0x\ap
 
 ../e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_i2c_platform.h:
 
+main.h:
+
 ../e-puck2_main-processor/src/msgbus/messagebus.h:
 
 c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\unistd.h:
 
 c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\sys\unistd.h:
+
+../e-puck2_main-processor/src/parameter/parameter.h:
