@@ -101,7 +101,6 @@ build/obj/po8030.o: ../e-puck2_main-processor/src/camera/po8030.c \
  ../e-puck2_main-processor/ChibiOS_ext/os/hal/ports/STM32/STM32F4xx/stm32_registry.h \
  ../e-puck2_main-processor/ChibiOS//os/hal/include/mmc_spi.h \
  ../e-puck2_main-processor/ChibiOS//os/hal/include/serial_usb.h \
- ../e-puck2_main-processor/src/camera/camera.h \
  ../e-puck2_main-processor/src/camera/../i2c_bus.h \
  ../e-puck2_main-processor/src/usbcfg.h \
  ../e-puck2_main-processor/ChibiOS//os/hal/lib/streams/chprintf.h \
@@ -310,8 +309,6 @@ c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-majo
 ../e-puck2_main-processor/ChibiOS//os/hal/include/mmc_spi.h:
 
 ../e-puck2_main-processor/ChibiOS//os/hal/include/serial_usb.h:
-
-../e-puck2_main-processor/src/camera/camera.h:
 
 ../e-puck2_main-processor/src/camera/../i2c_bus.h:
 

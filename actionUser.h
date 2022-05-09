@@ -31,5 +31,11 @@ void leds_stop(int time);
 
 void up_leds_blink(int time);
 
+void all_leds_red(void);
+
+void all_leds_off(void);
+
+void attack_target(int dist2target);
+
 #endif /* ACTIONUSER_H_ */
 

@@ -9,6 +9,7 @@
 #include <string.h>
 #include <math.h>
 #include <actionUser.h>
+#include <usageMotors.h>
 #include <leds.h>
 
 void blink_all_leds(int number){
@@ -67,5 +68,28 @@ void up_leds_blink(int time){
 	clear_leds();
 	chThdSleepMilliseconds(time);
 
+}
+
+void all_leds_red(void){
+	for(int i = 0; i<4;i++){
+		set_led(i,1);
+	}
+	set_front_led(1);
+}
+
+void all_leds_off(void){
+	for(int i = 0; i<4;i++){
+		set_led(i,0);
+	}
+	set_front_led(0);
+}
+
+void attack_target(int dist2target){
+	all_leds_red();
+	move_str_dist(dist2target + 2, 1000);
+	all_leds_off();
+	set_body_led(1);
+	chThdSleepMilliseconds(300);
+	set_body_led(0);
 }
 

@@ -153,10 +153,18 @@ build/obj/main.o: main.c \
  ../e-puck2_main-processor/ChibiOS//os/hal/lib/streams/chprintf.h \
  ../e-puck2_main-processor/src/sensors/imu.h \
  ../e-puck2_main-processor/src/sensors/mpu9250.h \
- ../e-puck2_main-processor/src/sensors/mpu9250_registers.h \
- trouver_couleur.h threadMotor.h \
+ ../e-puck2_main-processor/src/sensors/mpu9250_registers.h threadMotor.h \
  ../e-puck2_main-processor/src/memory_protection.h allthreads.h main.h \
- ../e-puck2_main-processor/src/parameter/parameter.h
+ ../e-puck2_main-processor/src/parameter/parameter.h \
+ ../e-puck2_main-processor/src/camera/po8030.h \
+ ../e-puck2_main-processor/src/camera/dcmi_camera.h \
+ ../e-puck2_main-processor/ChibiOS_ext/os/hal/include/dcmi.h \
+ ../e-puck2_main-processor/ChibiOS_ext/os/hal/include/../ports/STM32/STM32F4xx/dcmi_lld.h \
+ ../e-puck2_main-processor/ChibiOS_ext/os/hal/include/../ports/STM32/STM32F4xx/stm32_registry.h \
+ ../e-puck2_main-processor/ChibiOS_ext/os/hal/include/../ports/STM32/STM32F4xx/stm32_rcc.h \
+ ../e-puck2_main-processor/src/camera/po8030.h color.h \
+ ../e-puck2_main-processor/src/audio/microphone.h \
+ ../e-puck2_main-processor/src/audio/mp45dt02_processing.h
 
 c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\stdio.h:
 
@@ -472,8 +480,6 @@ threadSelector.h:
 
 ../e-puck2_main-processor/src/sensors/mpu9250_registers.h:
 
-trouver_couleur.h:
-
 threadMotor.h:
 
 ../e-puck2_main-processor/src/memory_protection.h:
@@ -483,3 +489,23 @@ allthreads.h:
 main.h:
 
 ../e-puck2_main-processor/src/parameter/parameter.h:
+
+../e-puck2_main-processor/src/camera/po8030.h:
+
+../e-puck2_main-processor/src/camera/dcmi_camera.h:
+
+../e-puck2_main-processor/ChibiOS_ext/os/hal/include/dcmi.h:
+
+../e-puck2_main-processor/ChibiOS_ext/os/hal/include/../ports/STM32/STM32F4xx/dcmi_lld.h:
+
+../e-puck2_main-processor/ChibiOS_ext/os/hal/include/../ports/STM32/STM32F4xx/stm32_registry.h:
+
+../e-puck2_main-processor/ChibiOS_ext/os/hal/include/../ports/STM32/STM32F4xx/stm32_rcc.h:
+
+../e-puck2_main-processor/src/camera/po8030.h:
+
+color.h:
+
+../e-puck2_main-processor/src/audio/microphone.h:
+
+../e-puck2_main-processor/src/audio/mp45dt02_processing.h:

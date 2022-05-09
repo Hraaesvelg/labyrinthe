@@ -20,4 +20,6 @@ void get_color(void);
 
 void get_image(void);
 
+void get_values_cam(void);
+
 #endif /* TROUVER_COULEUR_H_ */

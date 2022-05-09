@@ -15,13 +15,17 @@
 #include <threadSelector.h>
 #include <chprintf.h>
 #include <sensors/imu.h>
-#include <trouver_couleur.h>
 #include <threadMotor.h>
 #include "ch.h"
 #include "hal.h"
 #include "memory_protection.h"
 #include <allthreads.h>
 #include <main.h>
+#include <camera/po8030.h>
+#include <camera/dcmi_camera.h>
+#include <color.h>
+#include <audio/microphone.h>
+
 
 messagebus_t bus;
 MUTEX_DECL(bus_lock);
@@ -78,6 +82,17 @@ void mouvementRdm(void){
 	chThdSleepMilliseconds(200);
 }
 
+static void serial_start(void)
+{
+    static SerialConfig ser_cfg = {
+        115200,
+        0,
+        0,
+        0,
+    };
+
+    sdStart(&SD3, &ser_cfg); // UART3. Connected to the second com port of the programmer
+}
 
 int main(void)
 {
@@ -86,24 +101,45 @@ int main(void)
     chSysInit();
     messagebus_init(&bus, &bus_lock, &bus_condvar);/** Inits the Inter Process Communication bus. */
 
+    /* System init */
+	serial_start();
+	i2c_start();
+	dcmi_start();
+	po8030_start();
+
 
     // Initialisation des modules complémentaires
     motors_init();
-    serial_start();
+    //serial_start();
     VL53L0X_start();
-    imu_start();
-    calibrate_gyro();
-    cam_start();
+    proximity_start();
+    mic_start(NULL);
+    //imu_start();
+    //calibrate_gyro();
 
     // fonction de debut
     initialisationLeds(1);
     //show_panic(700, 3);
+    //srand(2340);
 
-    srand(2340);
+    //thread_motor();
+	//color_start();
     /* Boucle d'attente infinie */
+    //attack_target(15);
+    //process_image_start();
     while (1) {
-    	//get_image();
-    	select_mode();
+    	int mic1 = mic_get_volume(0);
+		int mic2 = mic_get_volume(1);
+		int mic3 = mic_get_volume(2);
+		int mic4 = mic_get_volume(3);
+
+		chprintf((BaseSequentialStream *)&SD3, "M1 = %d M2 = %d M3 = %d M4 = %d \r\n", mic1,mic2,mic3,mic4);
+		chThdSleepMilliseconds(100);
+    	/*int distG = get_prox(6);
+    	int distD = get_prox(3);
+
+    	chprintf((BaseSequentialStream *)&SD3, "G = %d D = %d \r\n", distG,distD);
+    	chThdSleepMilliseconds(500);*/
     }
 }
 

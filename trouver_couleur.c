@@ -102,7 +102,7 @@ static THD_FUNCTION(CaptureImage, arg) {
     (void)arg;
 
 	//Takes pixels 0 to IMAGE_BUFFER_SIZE of the line 10 + 11 (minimum 2 lines because reasons)
-	po8030_advanced_config(PO8030_FORMAT_RGB565, 0, 10, IMAGE_BUFFER_SIZE, 2, SUBSAMPLING_X1, SUBSAMPLING_X1); //
+	po8030_advanced_config(FORMAT_RGB565, 0, 10, IMAGE_BUFFER_SIZE, 2, SUBSAMPLING_X1, SUBSAMPLING_X1); //
 	po8030_set_awb(0); // pas les blancs
 	dcmi_enable_double_buffering();
 	dcmi_set_capture_mode(CAPTURE_ONE_SHOT);
@@ -226,7 +226,7 @@ void process_image_start(void){
 void get_color(void){
 
 	//Takes pixels 0 to IMAGE_BUFFER_SIZE of the line 10 + 11 (minimum 2 lines because reasons)
-	po8030_advanced_config(PO8030_FORMAT_RGB565, 0, 10, IMAGE_BUFFER_SIZE, 2, SUBSAMPLING_X1, SUBSAMPLING_X1); //
+	po8030_advanced_config(FORMAT_RGB565, 0, 10, IMAGE_BUFFER_SIZE, 2, SUBSAMPLING_X1, SUBSAMPLING_X1); //
 	po8030_set_awb(0); // pas les blancs
 	dcmi_enable_double_buffering();
 	dcmi_set_capture_mode(CAPTURE_ONE_SHOT);
@@ -332,28 +332,70 @@ void get_color(void){
 
 void get_image(void){
 	chprintf((BaseSequentialStream *)&SD3, "Initialisatione= %d \r\n",100);
-	//cam_start();
 	uint8_t* buffer = cam_get_last_image_ptr();
 	int buffer_size = cam_get_image_size();
 	chprintf((BaseSequentialStream *)&SD3, "taille buffer= %d \r\n", cam_get_image_size());
 	uint32_t countR = 0;
 	uint32_t countB = 0;
 	uint32_t countV = 0;
+	uint32_t count = 0;
 
-	for(uint32_t i=0; i<buffer_size; i+=3){
+	for(int i=0; i<buffer_size; i+=3){
 		//chprintf((BaseSequentialStream *)&SD3, "buffer value= %d \r\n",
 		//									buffer[i]);
-		countR += buffer[i]&0b11111000 >> 2;
-		//countV += (buffer[i]&0b00000111 << 3) + (buffer[i+1]&0b11100000);
-		countB += buffer[i+1]&0b00011111 *2;
+		countR += buffer[i];
+		countV += buffer[i+1];
+		countB += buffer[i+2];
+		count += buffer[i] + buffer[i+1] + buffer[i+2];
 	}
 	countR = countR /(buffer_size/3);
-	//countV = countV /(buffer_size/3);
+	countV = countV /(buffer_size/3);
 	countB = countB /(buffer_size/3);
-	chprintf((BaseSequentialStream *)&SD3, "R = %d V = %d B = %d \r\n"
-			,countR,countV,countB);
+	count = count/buffer_size;
+	chprintf((BaseSequentialStream *)&SD3, "R = %d V = %d B = %d All = %d\r\n"
+			,countR,countV,countB, count);
 
 	chprintf((BaseSequentialStream *)&SD3, "fin image= %d \r\n",100);
 	chThdSleepMilliseconds(10);
 }
+
+void get_values_cam(void){
+	chprintf((BaseSequentialStream *)&SDU1, "CAMERA (%x)\r\n", cam_get_id());
+
+    uint8_t *img_buff_ptr;
+    uint16_t r = 0, g = 0, b = 0;
+    int8_t cam_error = 0;
+
+
+	// Init camera.
+	if(cam_advanced_config(FORMAT_RGB565, 240, 160, 160, 120, SUBSAMPLING_X4, SUBSAMPLING_X4) < 0) {
+		cam_error = -1;
+	}
+	dcmi_disable_double_buffering();
+	dcmi_set_capture_mode(CAPTURE_ONE_SHOT);
+	if(dcmi_prepare() < 0) {
+		cam_error = -2;
+	}
+	chprintf((BaseSequentialStream *)&SDU1, "cam_error= %d \r\n", cam_error);
+
+	while(1){
+		if(cam_error == 0) {
+			chprintf((BaseSequentialStream *)&SDU1, "CAMERA (%x)\r\n", cam_get_id());
+			spi_comm_suspend();
+			dcmi_capture_start();
+			wait_image_ready();
+			img_buff_ptr = cam_get_last_image_ptr();
+			r = (int)img_buff_ptr[0]&0xF8;
+			g = (int)(img_buff_ptr[0]&0x07)<<5 | (img_buff_ptr[1]&0xE0)>>3;
+			b = (int)(img_buff_ptr[1]&0x1F)<<3;
+			chprintf((BaseSequentialStream *)&SDU1, "R=%3d, G=%3d, B=%3d\r\n", r, g, b);
+			chprintf((BaseSequentialStream *)&SDU1, "DCMI err = %d\r\n\n", dcmi_get_error());
+			dcmi_reset_error();
+			spi_comm_resume();
+		} else {
+			chprintf((BaseSequentialStream *)&SDU1, "Camera conf err = %d, id=%x\r\n", cam_error, cam_get_id());
+		}
+	}
+}
+
 

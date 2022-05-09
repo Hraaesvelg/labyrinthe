@@ -11,12 +11,12 @@ GLOBAL_PATH = ../e-puck2_main-processor
 #Source files to include
 CSRC += ./main.c \
 		./usageMotors.c\
-		./trouver_couleur.c\
 		./actionUser.c\
 		./threadMotor.c\
 		./allThreads.c\
 		./threadSelector.c\
-
+		./color.c\
+		
 #Header folders to include
 INCDIR += 
 

@@ -129,12 +129,6 @@ build/obj/Asercom.o: ../e-puck2_main-processor/src/epuck1x/Asercom.c \
  ../e-puck2_main-processor/ChibiOS_ext/os/hal/ports/STM32/STM32F4xx/stm32_registry.h \
  ../e-puck2_main-processor/ChibiOS//os/hal/include/mmc_spi.h \
  ../e-puck2_main-processor/ChibiOS//os/hal/include/serial_usb.h \
- ../e-puck2_main-processor/src/camera/dcmi_camera.h \
- ../e-puck2_main-processor/ChibiOS_ext/os/hal/include/dcmi.h \
- ../e-puck2_main-processor/ChibiOS_ext/os/hal/include/../ports/STM32/STM32F4xx/dcmi_lld.h \
- ../e-puck2_main-processor/ChibiOS_ext/os/hal/include/../ports/STM32/STM32F4xx/stm32_registry.h \
- ../e-puck2_main-processor/ChibiOS_ext/os/hal/include/../ports/STM32/STM32F4xx/stm32_rcc.h \
- ../e-puck2_main-processor/src/camera/camera.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\string.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\xlocale.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\strings.h \
@@ -424,18 +418,6 @@ c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-majo
 ../e-puck2_main-processor/ChibiOS//os/hal/include/mmc_spi.h:
 
 ../e-puck2_main-processor/ChibiOS//os/hal/include/serial_usb.h:
-
-../e-puck2_main-processor/src/camera/dcmi_camera.h:
-
-../e-puck2_main-processor/ChibiOS_ext/os/hal/include/dcmi.h:
-
-../e-puck2_main-processor/ChibiOS_ext/os/hal/include/../ports/STM32/STM32F4xx/dcmi_lld.h:
-
-../e-puck2_main-processor/ChibiOS_ext/os/hal/include/../ports/STM32/STM32F4xx/stm32_registry.h:
-
-../e-puck2_main-processor/ChibiOS_ext/os/hal/include/../ports/STM32/STM32F4xx/stm32_rcc.h:
-
-../e-puck2_main-processor/src/camera/camera.h:
 
 c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\string.h:
 

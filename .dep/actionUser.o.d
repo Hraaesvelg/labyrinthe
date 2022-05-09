@@ -36,7 +36,7 @@ build/obj/actionUser.o: actionUser.c \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\strings.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\sys\string.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\math.h \
- actionUser.h ../e-puck2_main-processor/src/leds.h \
+ actionUser.h usageMotors.h ../e-puck2_main-processor/src/leds.h \
  ../e-puck2_main-processor/ChibiOS//os/hal/include/hal.h \
  ../e-puck2_main-processor/ChibiOS//os/hal/osal/rt/osal.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\lib\gcc\arm-none-eabi\7.2.1\include\stdint.h \
@@ -209,6 +209,8 @@ c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-majo
 c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\math.h:
 
 actionUser.h:
+
+usageMotors.h:
 
 ../e-puck2_main-processor/src/leds.h:
 
