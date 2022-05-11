@@ -1,14 +1,14 @@
 build/obj/chcoreasm_v7m.o: \
- ../e-puck2_main-processor/ChibiOS//os/rt/ports/ARMCMx/compilers/GCC/chcoreasm_v7m.s \
- ../e-puck2_main-processor/src/chconf.h \
- ../e-puck2_main-processor/ChibiOS//os/rt/ports/ARMCMx/chcore.h \
- ../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/devices/STM32F4xx/cmparams.h \
- ../e-puck2_main-processor/ChibiOS//os/rt/ports/ARMCMx/chcore_v7m.h
+ c:\users\valentin\desktop\microinformatique-tp\autres\lib\e-puck2_main-processor\chibios\os\rt\ports\armcmx\compilers\gcc\chcoreasm_v7m.s \
+ C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/chconf.h \
+ c:\users\valentin\desktop\microinformatique-tp\autres\lib\e-puck2_main-processor\chibios\os\rt\ports\armcmx\chcore.h \
+ c:\users\valentin\desktop\microinformatique-tp\autres\lib\e-puck2_main-processor\chibios\os\common\ports\armcmx\devices\stm32f4xx\cmparams.h \
+ c:\users\valentin\desktop\microinformatique-tp\autres\lib\e-puck2_main-processor\chibios\os\rt\ports\armcmx\chcore_v7m.h
 
-../e-puck2_main-processor/src/chconf.h:
+C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/chconf.h:
 
-../e-puck2_main-processor/ChibiOS//os/rt/ports/ARMCMx/chcore.h:
+c:\users\valentin\desktop\microinformatique-tp\autres\lib\e-puck2_main-processor\chibios\os\rt\ports\armcmx\chcore.h:
 
-../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/devices/STM32F4xx/cmparams.h:
+c:\users\valentin\desktop\microinformatique-tp\autres\lib\e-puck2_main-processor\chibios\os\common\ports\armcmx\devices\stm32f4xx\cmparams.h:
 
-../e-puck2_main-processor/ChibiOS//os/rt/ports/ARMCMx/chcore_v7m.h:
+c:\users\valentin\desktop\microinformatique-tp\autres\lib\e-puck2_main-processor\chibios\os\rt\ports\armcmx\chcore_v7m.h:

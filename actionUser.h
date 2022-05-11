@@ -8,6 +8,8 @@
 #ifndef ACTIONUSER_H_
 #define ACTIONUSER_H_
 
+#define side_margin 20
+
 /**
  * @brief   Make the leds blink for a given number of time
  *
@@ -36,6 +38,12 @@ void all_leds_red(void);
 void all_leds_off(void);
 
 void attack_target(int dist2target);
+
+void follow_wall(void);
+
+void explore_maze(void);
+
+void initialisationLeds(int ite);
 
 #endif /* ACTIONUSER_H_ */
 

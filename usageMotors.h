@@ -66,5 +66,8 @@ void stopMotors(void);
 
 void show_panic(int speed, int number);
 
+void turn_angle(int angle, int speed);
+
+
 
 #endif /* USAGEMOTORS_H_ */

@@ -6,7 +6,8 @@
 PROJECT = Labyrinthe
 
 #Define path to the e-puck2_main-processor folder
-GLOBAL_PATH = ../e-puck2_main-processor
+GLOBAL_PATH = C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor
+#../e-puck2_main-processor
 
 #Source files to include
 CSRC += ./main.c \

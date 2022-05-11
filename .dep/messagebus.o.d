@@ -1,5 +1,6 @@
-build/obj/messagebus.o: ../e-puck2_main-processor/src/msgbus/messagebus.c \
- ../e-puck2_main-processor/src/msgbus/messagebus.h \
+build/obj/messagebus.o: \
+ C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/msgbus/messagebus.c \
+ C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/msgbus/messagebus.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\unistd.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\sys\unistd.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\_ansi.h \
@@ -34,7 +35,7 @@ build/obj/messagebus.o: ../e-puck2_main-processor/src/msgbus/messagebus.c \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\strings.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\sys\string.h
 
-../e-puck2_main-processor/src/msgbus/messagebus.h:
+C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/msgbus/messagebus.h:
 
 c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\unistd.h:
 

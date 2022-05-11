@@ -22,65 +22,17 @@
 #include <allthreads.h>
 #include <main.h>
 #include <camera/po8030.h>
-#include <camera/dcmi_camera.h>
 #include <color.h>
 #include <audio/microphone.h>
+#include <usbcfg.h>
+#include <audio/play_melody.h>
+#include <spi_comm.h>
 
 
 messagebus_t bus;
 MUTEX_DECL(bus_lock);
 CONDVAR_DECL(bus_condvar);
 
-
-// Jeu de lumière avec les led rouge/body/led
-void initialisationLeds(int ite){
-	clear_leds();
-	int8_t compt = 0;
-	while(compt <= ite){
-		for(int8_t i=0; i<=3; i++){
-			set_led(i, 1);
-			chThdSleepMilliseconds(200);
-			clear_leds();
-		}
-		compt += 1;
-	}
-	compt = 0;
-	while(compt <= ite){
-		set_body_led(1);
-		set_front_led(0);
-		chThdSleepMilliseconds(200);
-		set_body_led(0);
-		set_front_led(1);
-		chThdSleepMilliseconds(200);
-		compt +=1;
-	}
-	set_front_led(0);
-	clear_leds();
-}
-
-void mouvementRdm(void){
-	// calcul de la distance
-	int distance = VL53L0X_get_dist_mm();
-	chprintf((BaseSequentialStream *)&SD3, " Distance= %d \r\n",
-			distance);
-
-	if (distance > 50 ){
-		go_straight(500);
-	}
-	else{
-		stopMotors();
-		int side = rand()%2;
-		if (side==1){
-			chThdSleepMilliseconds(50);
-			turn_right(500);
-		}
-		else if (side == 0){
-			chThdSleepMilliseconds(50);
-			turn_left(500);
-		}
-	}
-	chThdSleepMilliseconds(200);
-}
 
 static void serial_start(void)
 {
@@ -96,50 +48,32 @@ static void serial_start(void)
 
 int main(void)
 {
-	// Initialisation du systeme
+	/* System init */
     halInit();
     chSysInit();
-    messagebus_init(&bus, &bus_lock, &bus_condvar);/** Inits the Inter Process Communication bus. */
 
-    /* System init */
-	serial_start();
-	i2c_start();
-	dcmi_start();
-	po8030_start();
+    /** Inits the Inter Process Communication bus. */
+    messagebus_init(&bus, &bus_lock, &bus_condvar);
 
-
+    spi_comm_start();
     // Initialisation des modules complémentaires
     motors_init();
-    //serial_start();
     VL53L0X_start();
-    proximity_start();
-    mic_start(NULL);
-    //imu_start();
-    //calibrate_gyro();
+	serial_start();
+	proximity_start();
+	//playMelodyStart();
+	dcmi_start();
+	po8030_start();
+	process_image_start();
+    //thread perso à lancer pour le projet
 
-    // fonction de debut
-    initialisationLeds(1);
-    //show_panic(700, 3);
-    //srand(2340);
 
-    //thread_motor();
-	//color_start();
     /* Boucle d'attente infinie */
-    //attack_target(15);
-    //process_image_start();
     while (1) {
-    	int mic1 = mic_get_volume(0);
-		int mic2 = mic_get_volume(1);
-		int mic3 = mic_get_volume(2);
-		int mic4 = mic_get_volume(3);
+    	chprintf((BaseSequentialStream *)&SD3, "R = %d B = %d G = %d \r\n",
+    	    			get_color_red(), get_color_green(), get_color_blue());
 
-		chprintf((BaseSequentialStream *)&SD3, "M1 = %d M2 = %d M3 = %d M4 = %d \r\n", mic1,mic2,mic3,mic4);
-		chThdSleepMilliseconds(100);
-    	/*int distG = get_prox(6);
-    	int distD = get_prox(3);
-
-    	chprintf((BaseSequentialStream *)&SD3, "G = %d D = %d \r\n", distG,distD);
-    	chThdSleepMilliseconds(500);*/
+    	chThdSleepMilliseconds(150);
     }
 }
 
@@ -152,34 +86,93 @@ void __stack_chk_fail(void)
 }
 
 
+/*
+chprintf((BaseSequentialStream *)&SD3, "IR1 = %d IR2 = %d IR3 = %d IR4 = %d IR5 = %d IR6 = %d IR7 = %d IR1 = %d \r\n",
+    			get_prox(0), get_prox(1), get_prox(2), get_prox(3), get_prox(4),
+				get_prox(5),get_prox(6), get_prox(7));
 
-/*int gyrox = get_gyro(0) - get_gyro_offset(0);
-    	int gyroy = get_gyro(1) - get_gyro_offset(1);
-    	//int gyrox = get_acc(0) - get_acc_offset(0);
-    	//int gyroy = get_acc(1) - get_acc_offset(1);
-    	uint8_t delta_gyro = 200;
-    	chprintf((BaseSequentialStream *)&SD3, " GyroscopeX = %d GyroscopeY = %d \r\n",
-    				gyrox, gyroy);
-    	chThdSleepMilliseconds(200);
+    	int front_dist = VL53L0X_get_dist_mm();
+    	if(front_dist < 100){
+    		int proxD = get_prox(2);
+			int proxG = get_prox(5);
+    		if((proxD < 100) | (proxG < 100)){
+    			if((proxD < 100) & (proxG < 100)){
+    				go_straight(500);
+    			}
+    			else if(proxD < 100){
+    				stopMotors();
+    				move_str_dist(5, 300);
+    				turn_right(300);
+    				stopMotors();
+    			}
+    			else
+    			{
+    				stopMotors();
+					move_str_dist(5, 300);
+					turn_left(300);
+					stopMotors();
+    			}
+    		}
+    		else{
+    			go_straight(500);
+    		}
+    	}
+    	else{
+    		stopMotors();
+    		int proxD = get_prox(2);
+			int proxG = get_prox(5);
+    		if(proxD < 100){
+				move_str_dist(5, 300);
+				turn_right(300);
+				stopMotors();
+			}
+    		else if(proxD < 100)
+			{
+				move_str_dist(5, 300);
+				turn_left(300);
+				stopMotors();
+			}
+    		else{
+				u_turn(300);
+				stopMotors();
+    		}
 
-    	if(gyrox > delta_gyro){
-    		clear_leds();
-    		set_led(0, 1);
-    	}
-    	else if(gyrox < (-1)*delta_gyro){
-    		clear_leds();
-    		set_led(2, 1);
-    	}
-    	else if (gyroy > delta_gyro){
-    		clear_leds();
-    		set_led(1, 1);
-    	}
-    	else if (gyroy < (-1)*delta_gyro){
-    		clear_leds();
-    		set_led(3, 1);
-    	}
-    	else
-    	{
-    		//stopMotors();
-    	}*/
+    		int front_dist = VL53L0X_get_dist_mm();
+		if(front_dist < 100){
+			stopMotors();
+			int proxD = get_prox(2);
+			int proxG = get_prox(5);
+			if(proxD <= 150){
+				stopMotors();
+				turn_right(500);
+				stopMotors();
+			}
+			else if(proxG <= 150){
+				stopMotors();
+				turn_left(500);
+				stopMotors();
+			}
+			else{
+				stopMotors();
+				u_turn(500);
+				stopMotors();
+			}
+		}
+		else{
+			go_straight(500);
+			int proxD = get_prox(2);
+			int proxG = get_prox(5);
+			chprintf((BaseSequentialStream *)&SD3, "DROITE = %d GAUCHE = %d IR3\r\n",
+			    			proxD, proxG);
+			if((proxD <= 150)&(proxG > 150)){
+				stopMotors();
+				move_str_dist(5,300);
+				stopMotors();
+				turn_right(500);
+				stopMotors();
+			}
+		}
+
+ */
+
 

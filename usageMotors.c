@@ -15,6 +15,7 @@
 
 
 
+
 #define PI                  3.1415926536f
 #define WHEEL_DISTANCE      5.35f    //cm
 #define PERIMETER_EPUCK     78*(PI * WHEEL_DISTANCE)
@@ -108,4 +109,15 @@ void show_panic(int speed, int number){
 	stopMotors();
 	leds_think(number);
 }
+
+void turn_angle(int angle, int speed){
+	int wanted_dist = angle * 360 / PERIMETER_EPUCK;
+	right_motor_set_pos(0);
+	left_motor_set_pos(0);
+	while (left_motor_get_pos() < wanted_dist && right_motor_get_pos() < wanted_dist){
+		right_motor_set_speed(-speed);
+		left_motor_set_speed(speed);
+	}
+}
+
 

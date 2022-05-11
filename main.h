@@ -7,6 +7,7 @@ extern "C" {
 
 #include "msgbus/messagebus.h"
 #include "parameter/parameter.h"
+#include <camera/dcmi_camera.h>
 
 /** Robot wide IPC bus. */
 extern messagebus_t bus;
