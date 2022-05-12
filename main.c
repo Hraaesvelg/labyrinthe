@@ -70,10 +70,49 @@ int main(void)
 
     /* Boucle d'attente infinie */
     while (1) {
-    	chprintf((BaseSequentialStream *)&SD3, "R = %d B = %d G = %d \r\n",
-    	    			get_color_red(), get_color_green(), get_color_blue());
+    	chprintf((BaseSequentialStream *)&SD3, "COULEUR = %d \r\n", get_main_color());
+    	set_rgb_led(0,0,0,30);
+		int front_dist = VL53L0X_get_dist_mm();
+		chprintf((BaseSequentialStream *)&SD3, "DISTANCE = %d \r\n", front_dist);
+		int proxD = get_prox(2);
+		int proxG = get_prox(5);
+		chprintf((BaseSequentialStream *)&SD3, "IR3 = %d IR6 = %d\r\n", proxD, proxG);
 
-    	chThdSleepMilliseconds(150);
+		if(front_dist > 100){
+			int proxD = get_prox(2);
+			int proxG = get_prox(5);
+			go_straight(500);
+			if((proxD < 150)&&(proxG > 130)){
+				chprintf((BaseSequentialStream *)&SD3, "LIBRE A DROITE = %d \r\n", proxD, proxG);
+				stopMotors();
+				chThdSleepMilliseconds(500);
+				move_str_dist(2,300);
+				stopMotors();
+				turn_right(300);
+				stopMotors();
+			}
+		}
+		else{
+			stopMotors();
+			int proxD = get_prox(2);
+			int proxG = get_prox(5);
+			if(proxD < 150){
+				move_str_dist(5, 300);
+				turn_right(300);
+				stopMotors();
+			}
+			else if(proxG < 150)
+			{
+				move_str_dist(5, 300);
+				turn_left(300);
+				stopMotors();
+			}
+			else{
+				u_turn(300);
+				stopMotors();
+			}
+		}
+		chThdSleepMilliseconds(100);
     }
 }
 
@@ -86,93 +125,51 @@ void __stack_chk_fail(void)
 }
 
 
-/*
-chprintf((BaseSequentialStream *)&SD3, "IR1 = %d IR2 = %d IR3 = %d IR4 = %d IR5 = %d IR6 = %d IR7 = %d IR1 = %d \r\n",
-    			get_prox(0), get_prox(1), get_prox(2), get_prox(3), get_prox(4),
-				get_prox(5),get_prox(6), get_prox(7));
 
-    	int front_dist = VL53L0X_get_dist_mm();
-    	if(front_dist < 100){
-    		int proxD = get_prox(2);
+/*
+ * if(front_dist < 100){
+			int proxD = get_prox(2);
 			int proxG = get_prox(5);
-    		if((proxD < 100) | (proxG < 100)){
-    			if((proxD < 100) & (proxG < 100)){
-    				go_straight(500);
-    			}
-    			else if(proxD < 100){
-    				stopMotors();
-    				move_str_dist(5, 300);
-    				turn_right(300);
-    				stopMotors();
-    			}
-    			else
-    			{
-    				stopMotors();
+			if((proxD < 100) | (proxG < 100)){
+				if((proxD < 100) & (proxG < 100)){
+					go_straight(500);
+				}
+				else if(proxD < 100){
+					stopMotors();
+					move_str_dist(5, 300);
+					turn_right(300);
+					stopMotors();
+				}
+				else
+				{
+					stopMotors();
 					move_str_dist(5, 300);
 					turn_left(300);
 					stopMotors();
-    			}
-    		}
-    		else{
-    			go_straight(500);
-    		}
-    	}
-    	else{
-    		stopMotors();
-    		int proxD = get_prox(2);
+				}
+			}
+			else{
+				go_straight(500);
+			}
+		}
+		else{
+			stopMotors();
+			int proxD = get_prox(2);
 			int proxG = get_prox(5);
-    		if(proxD < 100){
+			if(proxD < 100){
 				move_str_dist(5, 300);
 				turn_right(300);
 				stopMotors();
 			}
-    		else if(proxD < 100)
+			else if(proxD < 100)
 			{
 				move_str_dist(5, 300);
 				turn_left(300);
 				stopMotors();
 			}
-    		else{
+			else{
 				u_turn(300);
 				stopMotors();
-    		}
-
-    		int front_dist = VL53L0X_get_dist_mm();
-		if(front_dist < 100){
-			stopMotors();
-			int proxD = get_prox(2);
-			int proxG = get_prox(5);
-			if(proxD <= 150){
-				stopMotors();
-				turn_right(500);
-				stopMotors();
-			}
-			else if(proxG <= 150){
-				stopMotors();
-				turn_left(500);
-				stopMotors();
-			}
-			else{
-				stopMotors();
-				u_turn(500);
-				stopMotors();
 			}
 		}
-		else{
-			go_straight(500);
-			int proxD = get_prox(2);
-			int proxG = get_prox(5);
-			chprintf((BaseSequentialStream *)&SD3, "DROITE = %d GAUCHE = %d IR3\r\n",
-			    			proxD, proxG);
-			if((proxD <= 150)&(proxG > 150)){
-				stopMotors();
-				move_str_dist(5,300);
-				stopMotors();
-				turn_right(500);
-				stopMotors();
-			}
-		}
-
  */
-
-

@@ -11,26 +11,27 @@
 #include "ch.h"
 //#include "hal.h"
 
+#define RED 1
+#define BLUE 2
+#define GREEN 3
+#define BLACK 0
+#define WHITE 4
+
+static const int r_offset = 9;
+static const int g_offset = 22;
+static const int b_offset = 19;
+static const int color_margin = 2;
+
 uint8_t color_line(uint8_t *buffer);
 
-int get_color_red(void);
-int get_color_blue(void);
-int get_color_green(void);
+int get_red(void);
+int get_blue(void);
+int get_green(void);
 
 uint16_t get_line_position(void);
 
 void process_image_start(void);
 
-/*
+int get_main_color(void);
 
-#define BLACK 0
-#define RED 1
-#define GREEN 2
-#define BLUE 3
-#define COLOR_MARGIN 2000
-
-
-void color_start(void);
-uint8_t get_color_from_col(void);
-*/
 #endif /* COLOR_H_ */
