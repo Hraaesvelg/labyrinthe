@@ -128,37 +128,7 @@ void initialisationLeds(int ite){
 }
 
 void follow_wall(void){
-	//recherche du mur
-	set_body_led(1);
-	turn_right(500);
-	int distance = 100;
-	while(distance > 40){
-		distance = VL53L0X_get_dist_mm();
-		go_straight(200);
-	}
-	stopMotors();
-	turn_left(200);
-	int dist_to_wall = get_prox(3);
-	set_body_led(0);
-	while(1){
-		int dist = get_prox(3);
-		chprintf((BaseSequentialStream *)&SD3, "distance = %d \r\n", dist);
-		if ((dist > dist_to_wall + side_margin)&&(dist < dist_to_wall - side_margin)){
-			go_straight(400);
-			set_led(1,1);
-		}
-		else if(dist < dist_to_wall + side_margin){
-			stopMotors();
-			turn_right(400);
-			set_led(1,0);
-		}
-		else if(dist > dist_to_wall - side_margin){
-			stopMotors();
-			turn_left(400);
-			set_led(1,0);
-		}
 
-	}
 }
 
 void explore_maze(void){
@@ -169,42 +139,67 @@ void explore_maze(void){
 	int distance = 0;
 	int str_count = 0;
 	chprintf((BaseSequentialStream *)&SD3, "Entrée parcours labyrinthe = %d \r\n", 1);
-	while((pos_tab < size_tab)&&(str_count < 10)){
-		distance = VL53L0X_get_dist_mm();
-		chprintf((BaseSequentialStream *)&SD3, "Distance = %d \r\n", distance);
-		if(distance > 100){ // Avancer si rien ne bloque le passage
-			move_str_dist(5, 500);
+	while((pos_tab < size_tab)&&(str_count < 20)){
+		chprintf((BaseSequentialStream *)&SD3, "LUMIERE 1 = %d LUMIERE 4 = %d \r\n", get_ambient_light(0), get_ambient_light(4));
+		chprintf((BaseSequentialStream *)&SD3, "COULEUR = %d \r\n", get_main_color());
+		set_rgb_led(0,0,0,30);
+		//int front_dist = VL53L0X_get_dist_mm();
+		int front_dist = front_dist_ir();
+		chprintf((BaseSequentialStream *)&SD3, "DISTANCE = %d \r\n", front_dist_ir());
+		int proxD = get_prox(2);
+		int proxG = get_prox(5);
+		chprintf((BaseSequentialStream *)&SD3, "IR3 = %d IR6 = %d\r\n", proxD, proxG);
+
+		if(front_dist < 400){
+			//int proxD = get_prox(2);
+			//int proxG = get_prox(5);
+			int distdroite = get_prox(1);
+			int distgauche = get_prox(6);
+			if (distdroite > 300){
+				deviation_robot(250, 100);
+				chThdSleepMilliseconds(100);
+				distdroite = get_prox(1);
+			}
+			if (distgauche > 300){
+				deviation_robot(100, 200);
+				chThdSleepMilliseconds(100);
+				distgauche = get_prox(6);
+			}
 			stopMotors();
-			//tab_direction[pos_tab] = 0;
-			str_count++;
-		}
-		turn_right(500);
-		int distD = VL53L0X_get_dist_mm();
-		if(distD > 100){ //tourner a droite dans la majorité des cas
-			str_count = 0;
-			//tab_direction[pos_tab] = 1;
-		}
-		else if((distD < 70)&&(distance < 70)){ // Tourner a gauche si le chemin est bloqué en face et a droite
-			turn_left(500);
-			stopMotors();
-			turn_left(500);
-			stopMotors();
-			str_count = 0;
-			int DistG = VL53L0X_get_dist_mm();
-			if ((DistG< 70)&&(distance < 70)&&(distD < 70)){
-				turn_left(500);
+			go_straight(500);
+			/*if((proxD < 150)&&(proxG > 130)){
+				chprintf((BaseSequentialStream *)&SD3, "LIBRE A DROITE = %d \r\n", proxD, proxG);
 				stopMotors();
-				//tab_direction[pos_tab] = 3;
+				chThdSleepMilliseconds(500);
+				move_str_dist(2,300);
+				stopMotors();
+				turn_right(300);
+				stopMotors();
+			}*/
+		}
+		else{
+			stopMotors();
+			int proxD = get_prox(2);
+			int proxG = get_prox(5);
+			if(proxD < 150){
+				turn_right(300);
+				tab_direction[pos_tab] = 1;
+				stopMotors();
+			}
+			else if(proxG < 150)
+			{
+				turn_left(300);
+				tab_direction[pos_tab] = 2;
+				stopMotors();
 			}
 			else{
-				//tab_direction[pos_tab] = 2;
+				u_turn(300);
+				tab_direction[pos_tab] = 2;
+				stopMotors();
 			}
 		}
-		else{ // Continuer tout droit
-			turn_left(500);
-			stopMotors();
-		}
 		pos_tab ++;
+		chThdSleepMilliseconds(100);
 	}
 	/*for(int i = pos_tab; i >= 0; i--){
 		chprintf((BaseSequentialStream *)&SD3, "position = %d orientation = %d \r\n", i, tab_direction[i]);

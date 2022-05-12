@@ -27,6 +27,7 @@
 #include <usbcfg.h>
 #include <audio/play_melody.h>
 #include <spi_comm.h>
+#include <orientation.h>
 
 
 messagebus_t bus;
@@ -44,6 +45,11 @@ static void serial_start(void)
     };
 
     sdStart(&SD3, &ser_cfg); // UART3. Connected to the second com port of the programmer
+}
+
+int front_dist_ir(void){
+	int dist = (get_prox(0)+get_prox(7))/2;
+	return dist;
 }
 
 int main(void)
@@ -70,51 +76,15 @@ int main(void)
 
     /* Boucle d'attente infinie */
     while (1) {
+    	//calibration();
+    	display_color_led();
     	chprintf((BaseSequentialStream *)&SD3, "COULEUR = %d \r\n", get_main_color());
-    	set_rgb_led(0,0,0,30);
-		int front_dist = VL53L0X_get_dist_mm();
-		chprintf((BaseSequentialStream *)&SD3, "DISTANCE = %d \r\n", front_dist);
-		int proxD = get_prox(2);
-		int proxG = get_prox(5);
-		chprintf((BaseSequentialStream *)&SD3, "IR3 = %d IR6 = %d\r\n", proxD, proxG);
-
-		if(front_dist > 100){
-			int proxD = get_prox(2);
-			int proxG = get_prox(5);
-			go_straight(500);
-			if((proxD < 150)&&(proxG > 130)){
-				chprintf((BaseSequentialStream *)&SD3, "LIBRE A DROITE = %d \r\n", proxD, proxG);
-				stopMotors();
-				chThdSleepMilliseconds(500);
-				move_str_dist(2,300);
-				stopMotors();
-				turn_right(300);
-				stopMotors();
-			}
-		}
-		else{
-			stopMotors();
-			int proxD = get_prox(2);
-			int proxG = get_prox(5);
-			if(proxD < 150){
-				move_str_dist(5, 300);
-				turn_right(300);
-				stopMotors();
-			}
-			else if(proxG < 150)
-			{
-				move_str_dist(5, 300);
-				turn_left(300);
-				stopMotors();
-			}
-			else{
-				u_turn(300);
-				stopMotors();
-			}
-		}
+    	chprintf((BaseSequentialStream *)&SD3, "R = %d G = %d B = %d \r\n", get_red(), get_green(), get_blue());
+    	explore_maze();
 		chThdSleepMilliseconds(100);
     }
 }
+
 
 #define STACK_CHK_GUARD 0xe2dee396
 uintptr_t __stack_chk_guard = STACK_CHK_GUARD;

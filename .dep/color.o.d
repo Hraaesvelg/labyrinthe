@@ -139,6 +139,8 @@ build/obj/color.o: color.c \
  c:\users\valentin\desktop\microinformatique-tp\autres\lib\e-puck2_main-processor\chibios_ext\os\hal\ports\stm32\stm32f4xx\stm32_rcc.h \
  C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/camera/po8030.h \
  C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/camera/po8030.h \
+ C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/leds.h \
+ C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/spi_comm.h \
  color.h
 
 c:\users\valentin\desktop\microinformatique-tp\autres\lib\e-puck2_main-processor\chibios\os\rt\include\ch.h:
@@ -420,5 +422,9 @@ c:\users\valentin\desktop\microinformatique-tp\autres\lib\e-puck2_main-processor
 C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/camera/po8030.h:
 
 C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/camera/po8030.h:
+
+C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/leds.h:
+
+C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/spi_comm.h:
 
 color.h:

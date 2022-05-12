@@ -6,6 +6,8 @@
 #include <main.h>
 #include <camera/dcmi_camera.h>
 #include <camera/po8030.h>
+#include <leds.h>
+#include <spi_comm.h>
 
 
 #include <color.h>
@@ -123,4 +125,28 @@ int get_main_color(void){
 	else{
 		return BLACK;
 	}
+}
+
+void display_color_led(void){
+	int color = get_main_color();
+	if(color == WHITE){
+		set_rgb_led(0,10,10,10);
+	}
+	else if(color == RED){
+		set_rgb_led(0,10,0,0);
+	}
+	else if(color == BLUE){
+		set_rgb_led(0,0,0,10);
+	}
+	else if(color == GREEN){
+		set_rgb_led(0,0,10,0);
+	}
+	else
+	{
+		set_rgb_led(0,0,0,0);
+	}
+}
+
+void stop_color_display(void){
+	set_rgb_led(0,0,0,0);
 }

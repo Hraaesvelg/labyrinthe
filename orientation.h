@@ -8,6 +8,9 @@
 #ifndef ORIENTATION_H_
 #define ORIENTATION_H_
 
+
 void good_inclinaison (void);
+
+void calibration(void);
 
 #endif /* ORIENTATION_H_ */

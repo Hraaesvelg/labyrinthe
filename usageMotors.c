@@ -120,4 +120,8 @@ void turn_angle(int angle, int speed){
 	}
 }
 
+void deviation_robot(int speedD, int speedG){
+	left_motor_set_speed(speedG);
+	right_motor_set_speed(speedD);
+}
 

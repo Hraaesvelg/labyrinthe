@@ -17,10 +17,10 @@
 #define BLACK 0
 #define WHITE 4
 
-static const int r_offset = 9;
-static const int g_offset = 22;
-static const int b_offset = 19;
-static const int color_margin = 2;
+static const int r_offset = 0; //9;
+static const int g_offset = 10; //22;
+static const int b_offset = 0; //19;
+static const int color_margin = 10;
 
 uint8_t color_line(uint8_t *buffer);
 
@@ -33,5 +33,9 @@ uint16_t get_line_position(void);
 void process_image_start(void);
 
 int get_main_color(void);
+
+void display_color_led(void);
+
+void stop_color_display(void);
 
 #endif /* COLOR_H_ */

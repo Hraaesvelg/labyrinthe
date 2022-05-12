@@ -68,6 +68,7 @@ void show_panic(int speed, int number);
 
 void turn_angle(int angle, int speed);
 
+void deviation_robot(int speedD, int speedG);
 
 
 #endif /* USAGEMOTORS_H_ */
