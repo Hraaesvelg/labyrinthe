@@ -45,5 +45,9 @@ void explore_maze(void);
 
 void initialisationLeds(int ite);
 
+void EP_call_homme(int tableau[]);
+
+int front_dist_ir(void);
+
 #endif /* ACTIONUSER_H_ */
 

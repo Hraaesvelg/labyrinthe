@@ -131,6 +131,11 @@ void follow_wall(void){
 
 }
 
+int front_dist_ir(void){
+	int dist = (get_prox(0)+get_prox(7))/2;
+	return dist;
+}
+
 void explore_maze(void){
 	//explore_maze();
 	int size_tab = 200;
@@ -139,20 +144,15 @@ void explore_maze(void){
 	int distance = 0;
 	int str_count = 0;
 	chprintf((BaseSequentialStream *)&SD3, "Entrée parcours labyrinthe = %d \r\n", 1);
+	left_motor_set_pos(0);
 	while((pos_tab < size_tab)&&(str_count < 20)){
-		chprintf((BaseSequentialStream *)&SD3, "LUMIERE 1 = %d LUMIERE 4 = %d \r\n", get_ambient_light(0), get_ambient_light(4));
-		chprintf((BaseSequentialStream *)&SD3, "COULEUR = %d \r\n", get_main_color());
 		set_rgb_led(0,0,0,30);
-		//int front_dist = VL53L0X_get_dist_mm();
 		int front_dist = front_dist_ir();
 		chprintf((BaseSequentialStream *)&SD3, "DISTANCE = %d \r\n", front_dist_ir());
 		int proxD = get_prox(2);
 		int proxG = get_prox(5);
-		chprintf((BaseSequentialStream *)&SD3, "IR3 = %d IR6 = %d\r\n", proxD, proxG);
 
 		if(front_dist < 400){
-			//int proxD = get_prox(2);
-			//int proxG = get_prox(5);
 			int distdroite = get_prox(1);
 			int distgauche = get_prox(6);
 			if (distdroite > 300){
@@ -179,11 +179,12 @@ void explore_maze(void){
 		}
 		else{
 			stopMotors();
+			tab_direction[pos_tab] = left_motor_get_pos();
 			int proxD = get_prox(2);
 			int proxG = get_prox(5);
 			if(proxD < 150){
 				turn_right(300);
-				tab_direction[pos_tab] = 1;
+				tab_direction[pos_tab+1] = 1;
 				stopMotors();
 			}
 			else if(proxG < 150)
@@ -194,14 +195,39 @@ void explore_maze(void){
 			}
 			else{
 				u_turn(300);
-				tab_direction[pos_tab] = 2;
+				tab_direction[pos_tab] = 3;
 				stopMotors();
 			}
+			left_motor_set_pos(0);
 		}
-		pos_tab ++;
+		pos_tab += 2;
 		chThdSleepMilliseconds(100);
 	}
-	/*for(int i = pos_tab; i >= 0; i--){
+	for(int i = pos_tab; i >= 0; i--){
 		chprintf((BaseSequentialStream *)&SD3, "position = %d orientation = %d \r\n", i, tab_direction[i]);
-	}*/
+	}
+}
+
+void EP_call_homme(int tableau[]){
+	size_t size_tbl = sizeof(tableau);
+	for(size_t i = 0 ; i < size_tbl; i+=2){
+		move_str_from_pos(tableau[i], 500);
+		if(tableau[i+1] == RIGHT)
+		{
+			turn_left(500);
+			stopMotors();
+		}
+		else if(tableau[i+1] == LEFT)
+		{
+			turn_right(500);
+			stopMotors();
+		}
+		else{
+			u_turn(500);
+		}
+	}
+	stopMotors();
+	set_body_led(1);
+	u_turn(500);
+	show_panic(300, 3);
 }

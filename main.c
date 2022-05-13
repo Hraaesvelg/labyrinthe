@@ -47,11 +47,6 @@ static void serial_start(void)
     sdStart(&SD3, &ser_cfg); // UART3. Connected to the second com port of the programmer
 }
 
-int front_dist_ir(void){
-	int dist = (get_prox(0)+get_prox(7))/2;
-	return dist;
-}
-
 int main(void)
 {
 	/* System init */
@@ -80,7 +75,12 @@ int main(void)
     	display_color_led();
     	chprintf((BaseSequentialStream *)&SD3, "COULEUR = %d \r\n", get_main_color());
     	chprintf((BaseSequentialStream *)&SD3, "R = %d G = %d B = %d \r\n", get_red(), get_green(), get_blue());
-    	explore_maze();
+    	//explore_maze();
+
+    	int tableau[50] = {0};
+    	for(int i = 0; i<50; i++){
+    		chprintf((BaseSequentialStream *)&SD3, "TABLEAU = %d \r\n", tableau[i]);
+    	}
 		chThdSleepMilliseconds(100);
     }
 }

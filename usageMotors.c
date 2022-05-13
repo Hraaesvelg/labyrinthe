@@ -125,3 +125,14 @@ void deviation_robot(int speedD, int speedG){
 	right_motor_set_speed(speedD);
 }
 
+
+void move_str_from_pos(int position, int speed){
+	left_motor_set_pos(0);
+	int32_t cposition = 0;
+	while (cposition < position){
+		cposition = left_motor_get_pos();
+		left_motor_set_speed(speed);
+		right_motor_set_speed(speed);
+	}
+	stopMotors();
+}

@@ -13,6 +13,10 @@
 #ifndef USAGEMOTORS_H_
 #define USAGEMOTORS_H_
 
+#define RIGHT 1
+#define LEFT 2
+#define UTURN 3
+
  /**
  * @brief   Sets the speed to @speed for both motors during an indefined time
  *
@@ -69,6 +73,8 @@ void show_panic(int speed, int number);
 void turn_angle(int angle, int speed);
 
 void deviation_robot(int speedD, int speedG);
+
+void move_str_from_pos(int position, int speed);
 
 
 #endif /* USAGEMOTORS_H_ */
