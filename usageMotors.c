@@ -136,3 +136,5 @@ void move_str_from_pos(int position, int speed){
 	}
 	stopMotors();
 }
+
+

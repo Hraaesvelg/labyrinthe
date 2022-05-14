@@ -12,10 +12,8 @@
 #include <msgbus/messagebus.h>
 #include <usageMotors.h>
 #include <actionUser.h>
-#include <threadSelector.h>
 #include <chprintf.h>
 #include <sensors/imu.h>
-#include <threadMotor.h>
 #include "ch.h"
 #include "hal.h"
 #include "memory_protection.h"
@@ -27,7 +25,20 @@
 #include <usbcfg.h>
 #include <audio/play_melody.h>
 #include <spi_comm.h>
-#include <orientation.h>
+#include "button.h"
+
+#include "audio/audio_thread.h"
+#include "audio/play_melody.h"
+#include "audio/play_sound_file.h"
+#include "audio/microphone.h"
+
+#include "audio/audio_thread.h"
+#include "audio/play_melody.h"
+#include "audio/play_sound_file.h"
+#include "audio/microphone.h"
+#include "sdio.h"
+
+#include <sensors/battery_level.h>
 
 
 messagebus_t bus;
@@ -62,25 +73,21 @@ int main(void)
     VL53L0X_start();
 	serial_start();
 	proximity_start();
-	//playMelodyStart();
 	dcmi_start();
 	po8030_start();
 	process_image_start();
+	battery_level_start();
+
+	// initialisation du son pour les musique
+	dac_start();
+	mic_start(NULL);
+	playMelodyStart();
+	playSoundFileStart();
+
     //thread perso à lancer pour le projet
+	main_thread_start();
 
-
-    /* Boucle d'attente infinie */
     while (1) {
-    	//calibration();
-    	display_color_led();
-    	chprintf((BaseSequentialStream *)&SD3, "COULEUR = %d \r\n", get_main_color());
-    	chprintf((BaseSequentialStream *)&SD3, "R = %d G = %d B = %d \r\n", get_red(), get_green(), get_blue());
-    	//explore_maze();
-
-    	int tableau[50] = {0};
-    	for(int i = 0; i<50; i++){
-    		chprintf((BaseSequentialStream *)&SD3, "TABLEAU = %d \r\n", tableau[i]);
-    	}
 		chThdSleepMilliseconds(100);
     }
 }
@@ -95,51 +102,3 @@ void __stack_chk_fail(void)
 }
 
 
-
-/*
- * if(front_dist < 100){
-			int proxD = get_prox(2);
-			int proxG = get_prox(5);
-			if((proxD < 100) | (proxG < 100)){
-				if((proxD < 100) & (proxG < 100)){
-					go_straight(500);
-				}
-				else if(proxD < 100){
-					stopMotors();
-					move_str_dist(5, 300);
-					turn_right(300);
-					stopMotors();
-				}
-				else
-				{
-					stopMotors();
-					move_str_dist(5, 300);
-					turn_left(300);
-					stopMotors();
-				}
-			}
-			else{
-				go_straight(500);
-			}
-		}
-		else{
-			stopMotors();
-			int proxD = get_prox(2);
-			int proxG = get_prox(5);
-			if(proxD < 100){
-				move_str_dist(5, 300);
-				turn_right(300);
-				stopMotors();
-			}
-			else if(proxD < 100)
-			{
-				move_str_dist(5, 300);
-				turn_left(300);
-				stopMotors();
-			}
-			else{
-				u_turn(300);
-				stopMotors();
-			}
-		}
- */

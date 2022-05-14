@@ -1,5 +1,5 @@
 build/obj/crc32.o: \
- C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/crc/crc32.c \
+ C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/crc/crc32.c \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\lib\gcc\arm-none-eabi\7.2.1\include\stdint.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\stdint.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\machine\_default_types.h \
@@ -21,7 +21,7 @@ build/obj/crc32.o: \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\sys\cdefs.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\machine\stdlib.h \
  c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\alloca.h \
- C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/crc/crc32.h
+ C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/crc/crc32.h
 
 c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\lib\gcc\arm-none-eabi\7.2.1\include\stdint.h:
 
@@ -65,4 +65,4 @@ c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-majo
 
 c:\users\valentin\desktop\eclipse_e-puck2\tools\gcc-arm-none-eabi-7-2017-q4-major-win32\arm-none-eabi\include\alloca.h:
 
-C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor/src/crc/crc32.h:
+C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/crc/crc32.h:

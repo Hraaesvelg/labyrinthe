@@ -13,10 +13,11 @@
 #define ACTIVE 1
 #define NONACTIVE 0
 
-void thread_motor(void);
+void main_thread_start(void);
 void enable_thread_motor(void);
 void disable_thread_motor(void);
 uint8_t get_running_motor(void);
+void main_function(void);
 
 
 #endif /* ALLTHREADS_H_ */

@@ -77,4 +77,6 @@ void deviation_robot(int speedD, int speedG);
 void move_str_from_pos(int position, int speed);
 
 
+
+
 #endif /* USAGEMOTORS_H_ */

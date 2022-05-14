@@ -37,17 +37,25 @@ void all_leds_red(void);
 
 void all_leds_off(void);
 
-void attack_target(int dist2target);
+void attack_target(void);
 
-void follow_wall(void);
+void set_rgb_all_leds(int color);
 
 void explore_maze(void);
 
 void initialisationLeds(int ite);
 
-void EP_call_homme(int tableau[]);
+void EP_call_home(void);
 
 int front_dist_ir(void);
+
+void calibration(void);
+
+void clean_tab(void);
+
+void print_tab(void);
+
+void ckeck_robot(void);
 
 #endif /* ACTIONUSER_H_ */
 

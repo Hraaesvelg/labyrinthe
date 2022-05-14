@@ -6,18 +6,15 @@
 PROJECT = Labyrinthe
 
 #Define path to the e-puck2_main-processor folder
-GLOBAL_PATH = C:\Users\Valentin\Desktop\Microinformatique-TP\autres\lib\e-puck2_main-processor
+GLOBAL_PATH = C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor
 #../e-puck2_main-processor
 
 #Source files to include
 CSRC += ./main.c \
 		./usageMotors.c\
 		./actionUser.c\
-		./threadMotor.c\
 		./allThreads.c\
-		./threadSelector.c\
 		./color.c\
-		./orientation.c\
 		
 #Header folders to include
 INCDIR += 

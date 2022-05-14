@@ -18,7 +18,7 @@
 #define WHITE 4
 
 static const int r_offset = 0; //9;
-static const int g_offset = 10; //22;
+static const int g_offset = 0; //22;
 static const int b_offset = 0; //19;
 static const int color_margin = 10;
 
