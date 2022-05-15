@@ -3,7 +3,6 @@
 #include <string.h>
 #include <math.h>
 
-
 #include <motors.h>
 #include <leds.h>
 #include <selector.h>
@@ -26,12 +25,6 @@
 #include <audio/play_melody.h>
 #include <spi_comm.h>
 #include "button.h"
-
-#include "audio/audio_thread.h"
-#include "audio/play_melody.h"
-#include "audio/play_sound_file.h"
-#include "audio/microphone.h"
-
 #include "audio/audio_thread.h"
 #include "audio/play_melody.h"
 #include "audio/play_sound_file.h"
@@ -75,7 +68,6 @@ int main(void)
 	proximity_start();
 	dcmi_start();
 	po8030_start();
-	process_image_start();
 	battery_level_start();
 
 	// initialisation du son pour les musique
@@ -85,6 +77,7 @@ int main(void)
 	playSoundFileStart();
 
     //thread perso à lancer pour le projet
+	process_image_start();
 	main_thread_start();
 
     while (1) {

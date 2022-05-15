@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
   55              		.loc 1 76 0
   56 0010 FFF7FEFF 		bl	e_init_motors
   57              	.LVL1:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 2
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 2
 
 
   58              		.loc 1 80 0
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  112              		.loc 1 109 0
  113 0054 0821     		movs	r1, #8
  114              		.loc 1 110 0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 3
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 3
 
 
  115 0056 4FF44862 		mov	r2, #3200
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  169 00b6 DFF84892 		ldr	r9, .L686+64
  170 00ba DFF848A2 		ldr	r10, .L686+68
  171 00be 4FF0000B 		mov	fp, #0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 4
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 4
 
 
  172              	.LVL14:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  226              		.loc 1 102 0
  227 0110 724A     		ldr	r2, .L686+28
  228              		.loc 1 107 0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 5
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 5
 
 
  229 0112 6E4D     		ldr	r5, .L686+12
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  283              		.loc 1 127 0 is_stmt 0 discriminator 2
  284 0156 FFF7FEFF 		bl	e_uart2_sending
  285              	.LVL26:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 6
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 6
 
 
  286 015a 0990     		str	r0, [sp, #36]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  340 01a0 2046     		mov	r0, r4
  341 01a2 FFF7FEFF 		bl	e_getchar_uart1
  342              	.LVL29:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 7
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 7
 
 
  343 01a6 0028     		cmp	r0, #0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  397 0206 3948     		ldr	r0, .L686+44
  398 0208 FFF7FEFF 		bl	e_send_uart1_char
  399              	.LVL32:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 8
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 8
 
 
  400              	.L217:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  454              	.L148:
  455              		.loc 1 602 0 discriminator 4
  456 025c 2046     		mov	r0, r4
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 9
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 9
 
 
  457 025e FFF7FEFF 		bl	e_getchar_uart2
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  511 02aa 0C46     		mov	r4, r1
  512              		.loc 1 174 0
  513 02ac 1360     		str	r3, [r2]
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 10
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 10
 
 
  514              	.LVL44:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  568 031a 9B4A     		ldr	r2, .L688+4
  569 031c 1A60     		str	r2, [r3]
  570              		.loc 1 167 0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 11
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 11
 
 
  571 031e 9B4B     		ldr	r3, .L688+8
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  625              	.L12:
  626              		.loc 1 178 0
  627 036e 894B     		ldr	r3, .L688+16
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 12
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 12
 
 
  628 0370 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  682              		.loc 1 234 0
  683 03b6 EFE7     		b	.L40
  684              	.L37:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 13
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 13
 
 
  685              		.loc 1 229 0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  739 0400 4FF41673 		mov	r3, #600
  740 0404 1360     		str	r3, [r2]
  741              		.loc 1 205 0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 14
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 14
 
 
  742 0406 614B     		ldr	r3, .L688+8
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  796 0462 6900     		.2byte	(.L44-.L46)/2
  797 0464 5A01     		.2byte	(.L50-.L46)/2
  798 0466 8F01     		.2byte	(.L51-.L46)/2
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 15
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 15
 
 
  799 0468 3E01     		.2byte	(.L52-.L46)/2
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  853 04cc 344C     		ldr	r4, .L688+28
  854              		.loc 1 278 0
  855 04ce 354D     		ldr	r5, .L688+32
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 16
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 16
 
 
  856              		.loc 1 277 0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  910 052c 0028     		cmp	r0, #0
  911 052e FAD0     		beq	.L133
  912              	.L134:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 17
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 17
 
 
  913              		.loc 1 579 0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  967 058c 00000000 		.word	.LANCHOR8
  968 0590 D4FEFFFF 		.word	-300
  969 0594 00000000 		.word	.LANCHOR9
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 18
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 18
 
 
  970 0598 00000000 		.word	.LANCHOR10
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1024              	.L108:
  1025              		.loc 1 479 0 is_stmt 0 discriminator 1
  1026 05fe 2046     		mov	r0, r4
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 19
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 19
 
 
  1027 0600 FFF7FEFF 		bl	e_getchar_uart1
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1081              		.loc 1 495 0
  1082 0650 66E7     		b	.L44
  1083              	.L106:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 20
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 20
 
 
  1084              		.loc 1 481 0 discriminator 1
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1138              		.loc 1 464 0 discriminator 3
  1139 06a4 D9F80020 		ldr	r2, [r9]
  1140              		.loc 1 461 0 discriminator 3
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 21
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 21
 
 
  1141 06a8 DAF80030 		ldr	r3, [r10]
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1195 0702 744C     		ldr	r4, .L690
  1196              		.loc 1 399 0
  1197 0704 BBF1000F 		cmp	fp, #0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 22
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 22
 
 
  1198 0708 17D0     		beq	.L84
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1252 075c E8D1     		bne	.L92
  1253              		.loc 1 577 0
  1254 075e 3046     		mov	r0, r6
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 23
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 23
 
 
  1255 0760 FFF7FEFF 		bl	e_getchar_uart2
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1309              	.L98:
  1310 07c8 DAB2     		uxtb	r2, r3
  1311 07ca D9F80040 		ldr	r4, [r9]
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 24
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 24
 
 
  1312              		.loc 1 434 0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1366              	.L49:
  1367              		.loc 1 389 0
  1368 0828 BBF1000F 		cmp	fp, #0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 25
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 25
 
 
  1369 082c 3FF49FAE 		beq	.L136
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1423              	.LVL93:
  1424 087a 0028     		cmp	r0, #0
  1425 087c FAD0     		beq	.L71
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 26
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 26
 
 
  1426              		.loc 1 345 0
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1480              	.LVL97:
  1481              		.loc 1 360 0
  1482 08cc 2068     		ldr	r0, [r4]
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 27
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 27
 
 
  1483 08ce FFF7FEFF 		bl	e_set_speed_right
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1537              	.LVL102:
  1538 092a 0028     		cmp	r0, #0
  1539 092c FAD0     		beq	.L80
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 28
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 28
 
 
  1540 092e C0E7     		b	.L78
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1594 0998 83F801E0 		strb	lr, [r3, #1]
  1595              	.LVL106:
  1596              		.loc 1 307 0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 29
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 29
 
 
  1597 099c 83F802C0 		strb	ip, [r3, #2]
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1651              		.loc 1 515 0
  1652 09e4 08F80300 		strb	r0, [r8, r3]
  1653              		.loc 1 516 0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 30
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 30
 
 
  1654 09e8 0112     		asrs	r1, r0, #8
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1708              	.LVL117:
  1709 0a3c 0028     		cmp	r0, #0
  1710 0a3e FAD0     		beq	.L120
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 31
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 31
 
 
  1711              		.loc 1 541 0 is_stmt 1
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1765              	.L678:
  1766 0aa0 DAF80000 		ldr	r0, [r10]
  1767              	.L122:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 32
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 32
 
 
  1768              		.loc 1 550 0 discriminator 1
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1822 0b0a CAF80010 		str	r1, [r10]
  1823              	.L130:
  1824              		.loc 1 559 0 discriminator 3
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 33
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 33
 
 
  1825 0b0e 18F80120 		ldrb	r2, [r8, r1]	@ zero_extendqisi2
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1879 0b7e D2E4     		b	.L133
  1880              	.L693:
  1881              		.align	2
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 34
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 34
 
 
  1882              	.L692:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1936 0c14 2D100000 		.word	.L183+1
  1937 0c18 F10D0000 		.word	.L184+1
  1938 0c1c AD0D0000 		.word	.L185+1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 35
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 35
 
 
  1939 0c20 63170000 		.word	.L162+1
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  1993 0cbe FFF7FEFF 		bl	e_send_uart1_char
  1994              	.LVL136:
  1995              	.L330:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 36
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 36
 
 
  1996              		.loc 1 1004 0 is_stmt 0 discriminator 2
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2050 0d22 0146     		mov	r1, r0
  2051 0d24 2046     		mov	r0, r4
  2052 0d26 FFF7FEFF 		bl	e_send_uart1_char
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 37
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 37
 
 
  2053              	.LVL143:
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2107 0d80 1C46     		mov	r4, r3
  2108 0d82 1860     		str	r0, [r3]
  2109              		.loc 1 1052 0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 38
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 38
 
 
  2110 0d84 FFF7FEFF 		bl	e_i2cp_disable
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2164 0dde 6748     		ldr	r0, .L694+44
  2165 0de0 FFF7FEFF 		bl	e_send_uart1_char
  2166              	.LVL161:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 39
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 39
 
 
  2167              	.L342:
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2221 0e38 2246     		mov	r2, r4
  2222 0e3a 0346     		mov	r3, r0
  2223 0e3c 5349     		ldr	r1, .L694+60
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 40
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 40
 
 
  2224 0e3e 4648     		ldr	r0, .L694+8
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2278              		.loc 1 936 0 is_stmt 0 discriminator 2
  2279 0e92 FFF7FEFF 		bl	e_uart1_sending
  2280              	.LVL179:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 41
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 41
 
 
  2281 0e96 0028     		cmp	r0, #0
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2335              	.LVL184:
  2336 0efa 0446     		mov	r4, r0
  2337 0efc 0420     		movs	r0, #4
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 42
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 42
 
 
  2338 0efe FFF7FEFF 		bl	e_get_ambient_light
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2392 0f7c F4090000 		.word	.LC84
  2393 0f80 C0090000 		.word	.LC82
  2394 0f84 00000000 		.word	.LANCHOR1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 43
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 43
 
 
  2395 0f88 580A0000 		.word	.LC91
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2449 1008 C248     		ldr	r0, .L696+4
  2450 100a CDE90145 		strd	r4, r5, [sp, #4]
  2451 100e FFF7FEFF 		bl	sprintf
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 44
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 44
 
 
  2452              	.LVL201:
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2506 106a 0028     		cmp	r0, #0
  2507 106c FBD1     		bne	.L333
  2508 106e FFF728B8 		b	.L4
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 45
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 45
 
 
  2509              	.L181:
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2563              		.loc 1 862 0
  2564 10c6 44BF     		itt	mi
  2565 10c8 C020     		movmi	r0, #192
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 46
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 46
 
 
  2566 10ca D9B2     		uxtbmi	r1, r3
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2620              		.loc 1 873 0
  2621 1132 00EB0520 		add	r0, r0, r5, lsl #8
  2622 1136 02EB0322 		add	r2, r2, r3, lsl #8
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 47
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 47
 
 
  2623 113a 0290     		str	r0, [sp, #8]
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2677              	.LVL226:
  2678 119c 0146     		mov	r1, r0
  2679 119e 5D48     		ldr	r0, .L696+4
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 48
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 48
 
 
  2680 11a0 FFF7FEFF 		bl	e_send_uart1_char
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2734 1200 FFF7FEFF 		bl	e_get_acc_filtered
  2735              	.LVL233:
  2736 1204 0121     		movs	r1, #1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 49
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 49
 
 
  2737 1206 0446     		mov	r4, r0
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2791              		.loc 1 836 0
  2792 1260 4FF4C870 		mov	r0, #400
  2793 1264 FFF7FEFF 		bl	chThdSleep
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 50
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 50
 
 
  2794              	.LVL243:
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2848 12c2 1448     		ldr	r0, .L696+4
  2849              		.loc 1 659 0
  2850 12c4 002B     		cmp	r3, #0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 51
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 51
 
 
  2851 12c6 00F0F785 		beq	.L202
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2905 1330 68080000 		.word	.LC63
  2906 1334 5C000000 		.word	.LC1
  2907 1338 98080000 		.word	.LC66
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 52
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 52
 
 
  2908 133c 3C0A0000 		.word	.LC90
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  2962              	.LVL264:
  2963 13a6 0546     		mov	r5, r0
  2964 13a8 FFF7FEFF 		bl	e_get_data
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 53
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 53
 
 
  2965              	.LVL265:
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3019 1402 FBD1     		bne	.L292
  3020 1404 FEF75DBE 		b	.L4
  3021              	.L171:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 54
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 54
 
 
  3022              		.loc 1 714 0 is_stmt 1
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3076 1458 FBD1     		bne	.L224
  3077              	.L225:
  3078              		.loc 1 723 0 is_stmt 1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 55
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 55
 
 
  3079 145a 2521     		movs	r1, #37
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3133              		.loc 1 730 0 is_stmt 1
  3134 14aa FFF7FEFF 		bl	isEpuckVersion1_3
  3135              	.LVL293:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 56
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 56
 
 
  3136 14ae 0028     		cmp	r0, #0
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3190 14fc FFF7FEFF 		bl	e_uart1_sending
  3191              	.LVL303:
  3192 1500 0028     		cmp	r0, #0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 57
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 57
 
 
  3193 1502 FBD1     		bne	.L238
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3247 1550 0028     		cmp	r0, #0
  3248 1552 FBD1     		bne	.L243
  3249              		.loc 1 745 0 is_stmt 1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 58
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 58
 
 
  3250 1554 2021     		movs	r1, #32
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3304              	.L250:
  3305              		.loc 1 752 0 is_stmt 0 discriminator 2
  3306 15a6 FFF7FEFF 		bl	e_uart1_sending
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 59
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 59
 
 
  3307              	.LVL324:
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3361 1638 D8030000 		.word	.LC32
  3362 163c F8030000 		.word	.LC33
  3363 1640 1C040000 		.word	.LC34
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 60
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 60
 
 
  3364 1644 50040000 		.word	.LC35
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3418              		.loc 1 810 0
  3419 16b2 1499     		ldr	r1, [sp, #80]
  3420 16b4 0122     		movs	r2, #1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 61
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 61
 
 
  3421 16b6 0A60     		str	r2, [r1]
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3475 1710 2468     		ldr	r4, [r4]
  3476 1712 0294     		str	r4, [sp, #8]
  3477 1714 CDE90055 		strd	r5, r5, [sp]
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 62
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 62
 
 
  3478 1718 FFF7FEFF 		bl	e_poxxxx_config_cam
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3532              		.loc 1 1072 0
  3533 176e FFF7FEFF 		bl	e_send_uart1_char
  3534              	.LVL339:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 63
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 63
 
 
  3535              	.L349:
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3589 17c4 0022     		movs	r2, #0
  3590 17c6 0221     		movs	r1, #2
  3591 17c8 0320     		movs	r0, #3
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 64
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 64
 
 
  3592 17ca FFF7FEFF 		bl	playMelody
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3646 182a DD78     		ldrb	r5, [r3, #3]	@ zero_extendqisi2
  3647 182c 1C79     		ldrb	r4, [r3, #4]	@ zero_extendqisi2
  3648 182e 5879     		ldrb	r0, [r3, #5]	@ zero_extendqisi2
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 65
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 65
 
 
  3649 1830 0E92     		str	r2, [sp, #56]
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3703              		.loc 1 452 0 discriminator 3
  3704 1892 CAF80000 		str	r0, [r10]
  3705 1896 EBDD     		ble	.L101
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 66
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 66
 
 
  3706              		.loc 1 577 0
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3760              	.L670:
  3761              		.loc 1 179 0
  3762 18f4 FFF7FEFF 		bl	e_init_sound
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 67
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 67
 
 
  3763              	.LVL361:
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3817 197c 00000000 		.word	.LANCHOR9
  3818 1980 00000000 		.word	.LANCHOR17
  3819              	.LVL365:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 68
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 68
 
 
  3820              	.L675:
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3874 19d4 FFF7FEFF 		bl	getTemperature
  3875              	.LVL369:
  3876 19d8 D9F80030 		ldr	r3, [r9]
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 69
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 69
 
 
  3877 19dc 5A1C     		adds	r2, r3, #1
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3931 1a40 8E48     		ldr	r0, .L702+20
  3932 1a42 FFF7FEFF 		bl	strlen
  3933              	.LVL378:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 70
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 70
 
 
  3934              		.loc 1 641 0
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  3988 1a96 7D4B     		ldr	r3, .L702+36
  3989 1a98 C8F80000 		str	r0, [r8]
  3990 1a9c 1980     		strh	r1, [r3]	@ movhi
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 71
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 71
 
 
  3991              		.loc 1 1006 0
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4045              	.L304:
  4046              		.loc 1 924 0 is_stmt 1
  4047 1af0 0998     		ldr	r0, [sp, #36]
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 72
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 72
 
 
  4048 1af2 FFF7FEFF 		bl	e_get_ambient_light
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4102 1b62 4648     		ldr	r0, .L702+20
  4103 1b64 FFF7FEFF 		bl	strlen
  4104              	.LVL409:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 73
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 73
 
 
  4105 1b68 0146     		mov	r1, r0
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4159              	.LVL420:
  4160 1bbe 0028     		cmp	r0, #0
  4161 1bc0 FBD1     		bne	.L312
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 74
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 74
 
 
  4162 1bc2 FEF72BBB 		b	.L626
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4216              		.loc 1 938 0 is_stmt 0 discriminator 2
  4217 1c12 FFF7FEFF 		bl	e_uart2_sending
  4218              	.LVL431:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 75
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 75
 
 
  4219 1c16 0028     		cmp	r0, #0
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4273 1c7c 00000000 		.word	buffer
  4274 1c80 00000000 		.word	.LANCHOR17
  4275 1c84 6C0A0000 		.word	.LC92
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 76
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 76
 
 
  4276 1c88 780A0000 		.word	.LC93
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4330 1d00 0B9B     		ldr	r3, [sp, #44]
  4331 1d02 0293     		str	r3, [sp, #8]
  4332 1d04 0191     		str	r1, [sp, #4]
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 77
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 77
 
 
  4333 1d06 DDE90E32 		ldrd	r3, r2, [sp, #56]
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4387              		.loc 1 1074 0 is_stmt 1
  4388 1d60 FFF7FEFF 		bl	e_send_uart2_char
  4389              	.LVL458:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 78
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 78
 
 
  4390              	.L350:
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4444 1db4 1D21     		movs	r1, #29
  4445 1db6 8E48     		ldr	r0, .L704+24
  4446 1db8 FFF7FEFF 		bl	e_send_uart2_char
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 79
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 79
 
 
  4447              	.LVL468:
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4501 1e08 FFF7FEFF 		bl	e_send_uart2_char
  4502              	.LVL478:
  4503              	.L265:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 80
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 80
 
 
  4504              		.loc 1 776 0 is_stmt 0 discriminator 2
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4558              	.L270:
  4559              		.loc 1 783 0 is_stmt 0 discriminator 2
  4560 1e5c FFF7FEFF 		bl	e_uart2_sending
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 81
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 81
 
 
  4561              	.LVL489:
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4615 1eac FFF7FEFF 		bl	e_uart2_sending
  4616              	.LVL499:
  4617 1eb0 0028     		cmp	r0, #0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 82
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 82
 
 
  4618 1eb2 FBD1     		bne	.L275
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4672              		.loc 1 763 0
  4673 1f0e 2721     		movs	r1, #39
  4674 1f10 4948     		ldr	r0, .L704+96
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 83
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 83
 
 
  4675 1f12 FFF7FEFF 		bl	e_send_uart2_char
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4729 1f6a 0246     		mov	r2, r0
  4730 1f6c 1B48     		ldr	r0, .L704+4
  4731 1f6e FFF7FEFF 		bl	sprintf
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 84
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 84
 
 
  4732              	.LVL519:
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4786 1fc6 FFF7FEFF 		bl	e_close_sound
  4787              	.LVL526:
  4788              		.loc 1 987 0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 85
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 85
 
 
  4789 1fca FFF7FEFF 		bl	stopCurrentMelody
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4843              		.set	.LANCHOR28,. + 0
  4844              		.type	LED_action.12669, %object
  4845              		.size	LED_action.12669, 4
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 86
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 86
 
 
  4846              	LED_action.12669:
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4894 0000 00       		.space	1
  4895              		.section	.bss.c1.12658,"aw",%nobits
  4896              		.set	.LANCHOR16,. + 0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 87
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 87
 
 
  4897              		.type	c1.12658, %object
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  4951              		.set	.LANCHOR5,. + 0
  4952              		.type	cam_zoom.12680, %object
  4953              		.size	cam_zoom.12680, 4
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 88
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 88
 
 
  4954              	cam_zoom.12680:
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5000              	i.12661:
  5001 0000 00000000 		.space	4
  5002              		.section	.bss.j.12662,"aw",%nobits
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 89
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 89
 
 
  5003              		.align	2
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5057 0000 00000000 		.space	4
  5058              		.section	.bss.speedr.12664,"aw",%nobits
  5059              		.align	2
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 90
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 90
 
 
  5060              		.set	.LANCHOR7,. + 0
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5099      2525290D 
  5099      0A00
  5100 0086 0000     		.space	2
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 91
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 91
 
 
  5101              	.LC4:
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5136      20204163 
  5137 0136 0000     		.space	2
  5138              	.LC17:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 92
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 92
 
 
  5139 0138 22422C23 		.ascii	"\"B,#\"             Body led 0=off 1=on 2=inverse\015"
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5164      20202020 
  5164      20202020 
  5164      20202020 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 93
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 93
 
 
  5164      20204952 
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5186              	.LC32:
  5187 03d8 224E2220 		.ascii	"\"N\"               Proximity\015\012\000"
  5187      20202020 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 94
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 94
 
 
  5187      20202020 
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5212      20202020 
  5212      20205465 
  5213              	.LC40:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 95
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 95
 
 
  5214 0530 22552220 		.ascii	"\"U\"               Get microphone amplitude\015\012"
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5236 065e 0000     		.space	2
  5237              	.LC48:
  5238 0660 22442C23 		.ascii	"\"D,#,#\"   Set motor speed left,right\015\012\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 96
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 96
 
 
  5238      2C232220 
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5260      20202020 
  5260      20204C69 
  5260      67687420 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 97
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 97
 
 
  5260      73656E73 
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5284      25642C25 
  5284      642C2564 
  5284      2C25640D 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 98
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 98
 
 
  5285 0891 000000   		.space	3
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5311 097c 502C2564 		.ascii	"P,%d,%d\015\000"
  5311      2C25640D 
  5311      00
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 99
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 99
 
 
  5312 0985 000000   		.space	3
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5348 0a18 25643A20 		.ascii	"%d: %d\015\012\000"
  5348      25640D0A 
  5348      00
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 100
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 100
 
 
  5349 0a21 000000   		.space	3
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5388              		.file 24 "c:\\users\\valentin\\desktop\\microinformatique-tp\\autres\\e-puck2_main-processor\\chib
  5389              		.file 25 "c:\\users\\valentin\\desktop\\microinformatique-tp\\autres\\e-puck2_main-processor\\chib
  5390              		.file 26 "c:\\users\\valentin\\desktop\\microinformatique-tp\\autres\\e-puck2_main-processor\\chib
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 101
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 101
 
 
  5391              		.file 27 "c:\\users\\valentin\\desktop\\microinformatique-tp\\autres\\e-puck2_main-processor\\chib
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5445              	.Ldebug_info0:
  5446 0000 9A6B0000 		.4byte	0x6b9a
  5447 0004 0400     		.2byte	0x4
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 102
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 102
 
 
  5448 0006 00000000 		.4byte	.Ldebug_abbrev0
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5502 007b 1F1A0000 		.4byte	.LASF9
  5503 007f 02       		.uleb128 0x2
  5504 0080 48210000 		.4byte	.LASF10
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 103
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 103
 
 
  5505 0084 02       		.byte	0x2
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5559 00f0 05       		.byte	0x5
  5560 00f1 72       		.byte	0x72
  5561 00f2 78000000 		.4byte	0x78
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 104
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 104
 
 
  5562 00f6 07       		.uleb128 0x7
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5616 0163 AF       		.byte	0xaf
  5617 0164 CA000000 		.4byte	0xca
  5618 0168 0E       		.uleb128 0xe
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 105
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 105
 
 
  5619 0169 04       		.byte	0x4
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5673 01de A30F0000 		.4byte	.LASF36
  5674 01e2 07       		.byte	0x7
  5675 01e3 10       		.byte	0x10
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 106
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 106
 
 
  5676 01e4 E8010000 		.4byte	0x1e8
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5730 0256 67070000 		.4byte	.LASF45
  5731 025a 08       		.byte	0x8
  5732 025b 10       		.byte	0x10
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 107
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 107
 
 
  5733 025c 68010000 		.4byte	0x168
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5787 02c8 CE020000 		.4byte	0x2ce
  5788 02cc 04       		.byte	0x4
  5789 02cd 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 108
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 108
 
 
  5790 02ce 05       		.uleb128 0x5
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5844 0334 00030000 		.4byte	0x300
  5845 0338 12       		.uleb128 0x12
  5846 0339 A71E0000 		.4byte	.LASF58
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 109
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 109
 
 
  5847 033d 0C       		.byte	0xc
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5901 03a8 0D       		.uleb128 0xd
  5902 03a9 8A1B0000 		.4byte	.LASF64
  5903 03ad 09       		.byte	0x9
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 110
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 110
 
 
  5904 03ae 32       		.byte	0x32
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  5958 0419 AA000000 		.4byte	0xaa
  5959 041d 08       		.byte	0x8
  5960 041e 0D       		.uleb128 0xd
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 111
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 111
 
 
  5961 041f EE090000 		.4byte	.LASF71
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6015 048c 15       		.uleb128 0x15
  6016 048d 02020000 		.4byte	.LASF80
  6017 0491 09       		.byte	0x9
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 112
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 112
 
 
  6018 0492 4E       		.byte	0x4e
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6072 0504 0B       		.uleb128 0xb
  6073 0505 B1000000 		.4byte	0xb1
  6074 0509 1F       		.byte	0x1f
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 113
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 113
 
 
  6075 050a 00       		.byte	0
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6129 0570 B9       		.byte	0xb9
  6130 0571 54000000 		.4byte	0x54
  6131 0575 0C       		.byte	0xc
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 114
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 114
 
 
  6132 0576 0D       		.uleb128 0xd
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6186 05e2 13       		.uleb128 0x13
  6187 05e3 5F757000 		.ascii	"_up\000"
  6188 05e7 09       		.byte	0x9
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 115
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 115
 
 
  6189 05e8 CF       		.byte	0xcf
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6243 0654 E4       		.byte	0xe4
  6244 0655 52010000 		.4byte	0x152
  6245 0659 5C       		.byte	0x5c
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 116
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 116
 
 
  6246 065a 0D       		.uleb128 0xd
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6300 06d2 1A       		.uleb128 0x1a
  6301 06d3 19020000 		.4byte	.LASF110
  6302 06d7 09       		.byte	0x9
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 117
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 117
 
 
  6303 06d8 4202     		.2byte	0x242
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6357 074d 5102     		.2byte	0x251
  6358 074f AA0A0000 		.4byte	0xaaa
  6359 0753 4C       		.byte	0x4c
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 118
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 118
 
 
  6360 0754 1A       		.uleb128 0x1a
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6414 07cd E6070000 		.4byte	0x7e6
  6415 07d1 18       		.uleb128 0x18
  6416 07d2 85060000 		.4byte	0x685
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 119
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 119
 
 
  6417 07d6 18       		.uleb128 0x18
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6471 0854 00       		.byte	0
  6472 0855 07       		.uleb128 0x7
  6473 0856 52280000 		.4byte	.LASF127
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 120
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 120
 
 
  6474 085a 09       		.byte	0x9
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6528 08ce 09       		.byte	0x9
  6529 08cf 4201     		.2byte	0x142
  6530 08d1 66000000 		.4byte	0x66
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 121
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 121
 
 
  6531 08d5 0C       		.byte	0xc
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6585 0946 A2080000 		.4byte	0x8a2
  6586 094a 58       		.byte	0x58
  6587 094b 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 122
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 122
 
 
  6588 094c 881F0000 		.4byte	.LASF142
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6642 09c1 21150000 		.4byte	.LASF151
  6643 09c5 09       		.byte	0x9
  6644 09c6 6B02     		.2byte	0x26b
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 123
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 123
 
 
  6645 09c8 52010000 		.4byte	0x152
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6699 0a3c 0A       		.uleb128 0xa
  6700 0a3d 37050000 		.4byte	0x537
  6701 0a41 4C0A0000 		.4byte	0xa4c
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 124
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 124
 
 
  6702 0a45 0B       		.uleb128 0xb
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6756 0aba 00       		.byte	0
  6757 0abb 05       		.uleb128 0x5
  6758 0abc 04       		.byte	0x4
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 125
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 125
 
 
  6759 0abd C10A0000 		.4byte	0xac1
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6813 0b30 7D230000 		.4byte	.LASF165
  6814 0b34 0B       		.byte	0xb
  6815 0b35 0E       		.byte	0xe
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 126
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 126
 
 
  6816 0b36 CA0B0000 		.4byte	0xbca
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6870 0ba0 A2020000 		.4byte	0x2a2
  6871 0ba4 0C       		.byte	0xc
  6872 0ba5 0D       		.uleb128 0xd
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 127
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 127
 
 
  6873 0ba6 E4120000 		.4byte	.LASF171
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6927 0c0f 380C0000 		.4byte	0xc38
  6928 0c13 13       		.uleb128 0x13
  6929 0c14 62756600 		.ascii	"buf\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 128
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 128
 
 
  6930 0c18 0B       		.byte	0xb
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  6984 0c7a 23       		.uleb128 0x23
  6985 0c7b 6200     		.ascii	"b\000"
  6986 0c7d 0B       		.byte	0xb
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 129
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 129
 
 
  6987 0c7e 36       		.byte	0x36
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7041 0cef 8C160000 		.4byte	.LASF186
  7042 0cf3 0C       		.byte	0xc
  7043 0cf4 4B       		.byte	0x4b
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 130
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 130
 
 
  7044 0cf5 75010000 		.4byte	0x175
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7098 0d6d 00       		.byte	0
  7099 0d6e 0D       		.uleb128 0xd
  7100 0d6f B20E0000 		.4byte	.LASF197
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 131
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 131
 
 
  7101 0d73 0E       		.byte	0xe
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7155 0ddf 0E       		.byte	0xe
  7156 0de0 E6       		.byte	0xe6
  7157 0de1 E30C0000 		.4byte	0xce3
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 132
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 132
 
 
  7158 0de5 22       		.byte	0x22
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7212 0e58 44       		.byte	0x44
  7213 0e59 1A       		.uleb128 0x1a
  7214 0e5a 3F140000 		.4byte	.LASF215
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 133
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 133
 
 
  7215 0e5e 0E       		.byte	0xe
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7269 0ecc 0D       		.uleb128 0xd
  7270 0ecd B20E0000 		.4byte	.LASF197
  7271 0ed1 0E       		.byte	0xe
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 134
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 134
 
 
  7272 0ed2 B9       		.byte	0xb9
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7326 0f45 0D       		.byte	0xd
  7327 0f46 5C       		.byte	0x5c
  7328 0f47 4B0F0000 		.4byte	0xf4b
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 135
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 135
 
 
  7329 0f4b 05       		.uleb128 0x5
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7383 0fbd C10F0000 		.4byte	0xfc1
  7384 0fc1 1C       		.uleb128 0x1c
  7385 0fc2 25040000 		.4byte	.LASF239
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 136
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 136
 
 
  7386 0fc6 10       		.byte	0x10
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7440 103b 0E       		.byte	0xe
  7441 103c B301     		.2byte	0x1b3
  7442 103e 250D0000 		.4byte	0xd25
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 137
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 137
 
 
  7443 1042 08       		.byte	0x8
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7497 10b8 B004     		.2byte	0x4b0
  7498 10ba 1B       		.uleb128 0x1b
  7499 10bb BC230000 		.4byte	.LASF253
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 138
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 138
 
 
  7500 10bf 0E       		.byte	0xe
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7554 1130 11       		.byte	0x11
  7555 1131 C9       		.byte	0xc9
  7556 1132 B6010000 		.4byte	0x1b6
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 139
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 139
 
 
  7557 1136 0C       		.byte	0xc
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7611 11a2 30       		.byte	0x30
  7612 11a3 0D       		.uleb128 0xd
  7613 11a4 E3140000 		.4byte	.LASF264
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 140
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 140
 
 
  7614 11a8 11       		.byte	0x11
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7668 1210 EB       		.byte	0xeb
  7669 1211 B6010000 		.4byte	0x1b6
  7670 1215 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 141
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 141
 
 
  7671 1216 0D       		.uleb128 0xd
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7725 127f 02       		.uleb128 0x2
  7726 1280 FA1F0000 		.4byte	.LASF278
  7727 1284 11       		.byte	0x11
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 142
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 142
 
 
  7728 1285 FB       		.byte	0xfb
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7782 12f8 1A       		.uleb128 0x1a
  7783 12f9 DA1B0000 		.4byte	.LASF281
  7784 12fd 11       		.byte	0x11
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 143
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 143
 
 
  7785 12fe 1101     		.2byte	0x111
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7839 1377 1A01     		.2byte	0x11a
  7840 1379 B6010000 		.4byte	0x1b6
  7841 137d 0402     		.2byte	0x204
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 144
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 144
 
 
  7842 137f 1B       		.uleb128 0x1b
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7896 13fe 57       		.byte	0x57
  7897 13ff 00       		.byte	0
  7898 1400 0A       		.uleb128 0xa
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 145
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 145
 
 
  7899 1401 3B120000 		.4byte	0x123b
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  7953 147a 08       		.byte	0x8
  7954 147b 1A       		.uleb128 0x1a
  7955 147c 441E0000 		.4byte	.LASF298
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 146
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 146
 
 
  7956 1480 11       		.byte	0x11
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8010 14f5 11       		.byte	0x11
  8011 14f6 4401     		.2byte	0x144
  8012 14f8 B6010000 		.4byte	0x1b6
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 147
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 147
 
 
  8013 14fc 30       		.byte	0x30
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8067 156b 1A       		.uleb128 0x1a
  8068 156c B81C0000 		.4byte	.LASF311
  8069 1570 11       		.byte	0x11
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 148
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 148
 
 
  8070 1571 6001     		.2byte	0x160
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8124 15e2 B6010000 		.4byte	0x1b6
  8125 15e6 08       		.byte	0x8
  8126 15e7 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 149
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 149
 
 
  8127 15e8 88040000 		.4byte	.LASF317
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8181 1660 11       		.byte	0x11
  8182 1661 4202     		.2byte	0x242
  8183 1663 B6010000 		.4byte	0x1b6
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 150
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 150
 
 
  8184 1667 04       		.byte	0x4
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8238 16d8 45160000 		.4byte	0x1645
  8239 16dc 1D       		.uleb128 0x1d
  8240 16dd 84       		.byte	0x84
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 151
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 151
 
 
  8241 16de 11       		.byte	0x11
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8295 1753 C902     		.2byte	0x2c9
  8296 1755 BB010000 		.4byte	0x1bb
  8297 1759 20       		.byte	0x20
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 152
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 152
 
 
  8298 175a 1A       		.uleb128 0x1a
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8352 17cf 1A       		.uleb128 0x1a
  8353 17d0 5D220000 		.4byte	.LASF285
  8354 17d4 11       		.byte	0x11
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 153
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 153
 
 
  8355 17d5 D302     		.2byte	0x2d3
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8409 1847 E102     		.2byte	0x2e1
  8410 1849 B6010000 		.4byte	0x1b6
  8411 184d 10       		.byte	0x10
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 154
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 154
 
 
  8412 184e 1A       		.uleb128 0x1a
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8466 18be 43523100 		.ascii	"CR1\000"
  8467 18c2 11       		.byte	0x11
  8468 18c3 0E03     		.2byte	0x30e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 155
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 155
 
 
  8469 18c5 B6010000 		.4byte	0x1b6
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8523 193b 8A       		.byte	0x8a
  8524 193c 831A0000 		.4byte	0x1a83
  8525 1940 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 156
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 156
 
 
  8526 1941 00       		.byte	0
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8580 19ad 1C       		.byte	0x1c
  8581 19ae 13       		.uleb128 0x13
  8582 19af 73323400 		.ascii	"s24\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 157
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 157
 
 
  8583 19b3 13       		.byte	0x13
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8637 1a24 13       		.byte	0x13
  8638 1a25 0801     		.2byte	0x108
  8639 1a27 13190000 		.4byte	0x1913
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 158
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 158
 
 
  8640 1a2b 44       		.byte	0x44
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8694 1a96 14       		.byte	0x14
  8695 1a97 55       		.byte	0x55
  8696 1a98 3B0D0000 		.4byte	0xd3b
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 159
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 159
 
 
  8697 1a9c 00       		.byte	0
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8751 1b06 111B0000 		.4byte	0x1b11
  8752 1b0a 0B       		.uleb128 0xb
  8753 1b0b B1000000 		.4byte	0xb1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 160
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 160
 
 
  8754 1b0f 3F       		.byte	0x3f
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8808 1b73 F11A0000 		.4byte	.LASF366
  8809 1b77 15       		.byte	0x15
  8810 1b78 4D       		.byte	0x4d
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 161
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 161
 
 
  8811 1b79 C20C0000 		.4byte	0xcc2
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8865 1be3 EC080000 		.4byte	.LASF374
  8866 1be7 0E       		.byte	0xe
  8867 1be8 0801     		.2byte	0x108
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 162
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 162
 
 
  8868 1bea 040D0000 		.4byte	0xd04
@@ -9718,7 +9718,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8922 1c61 14       		.byte	0x14
  8923 1c62 18       		.byte	0x18
  8924 1c63 39       		.byte	0x39
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 163
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 163
 
 
  8925 1c64 991C0000 		.4byte	0x1c99
@@ -9778,7 +9778,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  8979 1cd3 19       		.byte	0x19
  8980 1cd4 35       		.byte	0x35
  8981 1cd5 A71D0000 		.4byte	0x1da7
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 164
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 164
 
 
  8982 1cd9 00       		.byte	0
@@ -9838,7 +9838,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9036 1d45 0D       		.byte	0xd
  9037 1d46 0D       		.uleb128 0xd
  9038 1d47 94060000 		.4byte	.LASF398
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 165
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 165
 
 
  9039 1d4b 19       		.byte	0x19
@@ -9898,7 +9898,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9093 1db7 02       		.uleb128 0x2
  9094 1db8 36160000 		.4byte	.LASF406
  9095 1dbc 19       		.byte	0x19
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 166
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 166
 
 
  9096 1dbd 49       		.byte	0x49
@@ -9958,7 +9958,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9150 1e2f 1A       		.byte	0x1a
  9151 1e30 43       		.byte	0x43
  9152 1e31 1A0D0000 		.4byte	0xd1a
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 167
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 167
 
 
  9153 1e35 10       		.byte	0x10
@@ -10018,7 +10018,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9207 1ea1 1B       		.byte	0x1b
  9208 1ea2 51       		.byte	0x51
  9209 1ea3 FB1E0000 		.4byte	0x1efb
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 168
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 168
 
 
  9210 1ea7 10       		.byte	0x10
@@ -10078,7 +10078,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9264 1f13 611E0000 		.4byte	0x1e61
  9265 1f17 17       		.uleb128 0x17
  9266 1f18 B8000000 		.4byte	0xb8
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 169
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 169
 
 
  9267 1f1c 301F0000 		.4byte	0x1f30
@@ -10138,7 +10138,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9321 1f97 1C       		.byte	0x1c
  9322 1f98 DB       		.byte	0xdb
  9323 1f99 CF1F0000 		.4byte	0x1fcf
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 170
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 170
 
 
  9324 1f9d 00       		.byte	0
@@ -10198,7 +10198,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9378 200d 040D0000 		.4byte	0xd04
  9379 2011 25200000 		.4byte	0x2025
  9380 2015 18       		.uleb128 0x18
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 171
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 171
 
 
  9381 2016 68010000 		.4byte	0x168
@@ -10258,7 +10258,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9435 2094 1D       		.byte	0x1d
  9436 2095 28       		.byte	0x28
  9437 2096 D1200000 		.4byte	0x20d1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 172
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 172
 
 
  9438 209a 2A       		.uleb128 0x2a
@@ -10318,7 +10318,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9492 2103 3A       		.byte	0x3a
  9493 2104 DC200000 		.4byte	0x20dc
  9494 2108 17       		.uleb128 0x17
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 173
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 173
 
 
  9495 2109 A2020000 		.4byte	0x2a2
@@ -10378,7 +10378,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9549 218a 95210000 		.4byte	0x2195
  9550 218e 0B       		.uleb128 0xb
  9551 218f B1000000 		.4byte	0xb1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 174
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 174
 
 
  9552 2193 03       		.byte	0x3
@@ -10438,7 +10438,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9606 21f5 04       		.byte	0x4
  9607 21f6 0D       		.uleb128 0xd
  9608 21f7 BC0F0000 		.4byte	.LASF455
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 175
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 175
 
 
  9609 21fb 1E       		.byte	0x1e
@@ -10498,7 +10498,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9663 2264 5D120000 		.4byte	.LASF461
  9664 2268 1E       		.byte	0x1e
  9665 2269 BC       		.byte	0xbc
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 176
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 176
 
 
  9666 226a D6210000 		.4byte	0x21d6
@@ -10558,7 +10558,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9720 22d6 0C       		.uleb128 0xc
  9721 22d7 FC       		.byte	0xfc
  9722 22d8 1E       		.byte	0x1e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 177
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 177
 
 
  9723 22d9 D9       		.byte	0xd9
@@ -10618,7 +10618,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9777 2345 CB220000 		.4byte	0x22cb
  9778 2349 E0       		.byte	0xe0
  9779 234a 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 178
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 178
 
 
  9780 234b 02       		.uleb128 0x2
@@ -10678,7 +10678,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9834 23bc 2701     		.2byte	0x127
  9835 23be 90010000 		.4byte	0x190
  9836 23c2 07       		.uleb128 0x7
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 179
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 179
 
 
  9837 23c3 DE1F0000 		.4byte	.LASF489
@@ -10738,7 +10738,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9891 243a 20       		.byte	0x20
  9892 243b AF01     		.2byte	0x1af
  9893 243d B8000000 		.4byte	0xb8
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 180
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 180
 
 
  9894 2441 0C       		.byte	0xc
@@ -10798,7 +10798,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  9948 24b7 00       		.byte	0
  9949 24b8 05       		.uleb128 0x5
  9950 24b9 04       		.byte	0x4
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 181
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 181
 
 
  9951 24ba F5230000 		.4byte	0x23f5
@@ -10858,7 +10858,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10005 2530 24       		.uleb128 0x24
  10006 2531 63723200 		.ascii	"cr2\000"
  10007 2535 20       		.byte	0x20
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 182
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 182
 
 
  10008 2536 7601     		.2byte	0x176
@@ -10918,7 +10918,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10062 25a8 5A100000 		.4byte	.LASF516
  10063 25ac 20       		.byte	0x20
  10064 25ad 9A01     		.2byte	0x19a
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 183
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 183
 
 
  10065 25af 90250000 		.4byte	0x2590
@@ -10978,7 +10978,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10119 2621 B9060000 		.4byte	.LASF525
  10120 2625 21       		.byte	0x21
  10121 2626 65       		.byte	0x65
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 184
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 184
 
 
  10122 2627 F4250000 		.4byte	0x25f4
@@ -11038,7 +11038,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10176 2699 A90E0000 		.4byte	0xea9
  10177 269d 08       		.byte	0x8
  10178 269e 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 185
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 185
 
 
  10179 269f BF220000 		.4byte	.LASF528
@@ -11098,7 +11098,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10233 2713 B1240000 		.4byte	.LASF535
  10234 2717 22       		.byte	0x22
  10235 2718 4B01     		.2byte	0x14b
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 186
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 186
 
 
  10236 271a 06270000 		.4byte	0x2706
@@ -11158,7 +11158,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10290 2788 08       		.byte	0x8
  10291 2789 1A       		.uleb128 0x1a
  10292 278a 50020000 		.4byte	.LASF545
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 187
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 187
 
 
  10293 278e 24       		.byte	0x24
@@ -11218,7 +11218,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10347 2803 95290000 		.4byte	0x2995
  10348 2807 04       		.byte	0x4
  10349 2808 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 188
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 188
 
 
  10350 2809 28020000 		.4byte	.LASF496
@@ -11278,7 +11278,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10404 287d 240A0000 		.4byte	.LASF552
  10405 2881 01       		.byte	0x1
  10406 2882 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 189
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 189
 
 
  10407 2883 07       		.uleb128 0x7
@@ -11338,7 +11338,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10461 28f9 4E150000 		.4byte	.LASF557
  10462 28fd 01       		.byte	0x1
  10463 28fe 2A       		.uleb128 0x2a
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 190
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 190
 
 
  10464 28ff 4F190000 		.4byte	.LASF558
@@ -11398,7 +11398,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10518 2971 57280000 		.4byte	0x2857
  10519 2975 00       		.byte	0
  10520 2976 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 191
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 191
 
 
  10521 2977 4D010000 		.4byte	.LASF563
@@ -11458,7 +11458,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10575 29e9 12       		.uleb128 0x12
  10576 29ea 86090000 		.4byte	.LASF570
  10577 29ee 08       		.byte	0x8
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 192
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 192
 
 
  10578 29ef 26       		.byte	0x26
@@ -11518,7 +11518,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10632 2a5a 192A0000 		.4byte	0x2a19
  10633 2a5e 04       		.byte	0x4
  10634 2a5f 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 193
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 193
 
 
  10635 2a60 02       		.uleb128 0x2
@@ -11578,7 +11578,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10689 2acf 02       		.byte	0x2
  10690 2ad0 2A       		.uleb128 0x2a
  10691 2ad1 96080000 		.4byte	.LASF581
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 194
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 194
 
 
  10692 2ad5 03       		.byte	0x3
@@ -11638,7 +11638,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10746 2b46 20       		.uleb128 0x20
  10747 2b47 512B0000 		.4byte	0x2b51
  10748 2b4b 18       		.uleb128 0x18
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 195
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 195
 
 
  10749 2b4c 512B0000 		.4byte	0x2b51
@@ -11698,7 +11698,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10803 2bbf 29       		.byte	0x29
  10804 2bc0 A601     		.2byte	0x1a6
  10805 2bc2 B6010000 		.4byte	0x1b6
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 196
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 196
 
 
  10806 2bc6 1C       		.byte	0x1c
@@ -11758,7 +11758,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10860 2c3b 4C       		.byte	0x4c
  10861 2c3c 24       		.uleb128 0x24
  10862 2c3d 4F5200   		.ascii	"OR\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 197
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 197
 
 
  10863 2c40 29       		.byte	0x29
@@ -11818,7 +11818,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10917 2cb3 AB010000 		.4byte	0x1ab
  10918 2cb7 0C       		.byte	0xc
  10919 2cb8 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 198
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 198
 
 
  10920 2cb9 07       		.uleb128 0x7
@@ -11878,7 +11878,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  10974 2d2b 07       		.uleb128 0x7
  10975 2d2c 481A0000 		.4byte	.LASF611
  10976 2d30 2B       		.byte	0x2b
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 199
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 199
 
 
  10977 2d31 6A01     		.2byte	0x16a
@@ -11938,7 +11938,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11031 2da0 8601     		.2byte	0x186
  11032 2da2 CE2D0000 		.4byte	0x2dce
  11033 2da6 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 200
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 200
 
 
  11034 2da7 45170000 		.4byte	.LASF621
@@ -11998,7 +11998,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11088 2e1f 1A       		.uleb128 0x1a
  11089 2e20 CC0D0000 		.4byte	.LASF500
  11090 2e24 2B       		.byte	0x2b
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 201
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 201
 
 
  11091 2e25 A901     		.2byte	0x1a9
@@ -12058,7 +12058,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11145 2e99 2B       		.byte	0x2b
  11146 2e9a E001     		.2byte	0x1e0
  11147 2e9c DF2D0000 		.4byte	0x2ddf
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 202
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 202
 
 
  11148 2ea0 29       		.uleb128 0x29
@@ -12118,7 +12118,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11202 2f0f 2801     		.2byte	0x128
  11203 2f11 EF2F0000 		.4byte	0x2fef
  11204 2f15 08       		.byte	0x8
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 203
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 203
 
 
  11205 2f16 24       		.uleb128 0x24
@@ -12178,7 +12178,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11259 2f87 F1       		.byte	0xf1
  11260 2f88 D82F0000 		.4byte	0x2fd8
  11261 2f8c 0D       		.uleb128 0xd
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 204
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 204
 
 
  11262 2f8d EF010000 		.4byte	.LASF641
@@ -12238,7 +12238,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11316 3001 29       		.uleb128 0x29
  11317 3002 07       		.byte	0x7
  11318 3003 01       		.byte	0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 205
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 205
 
 
  11319 3004 42000000 		.4byte	0x42
@@ -12298,7 +12298,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11373 3078 1A       		.uleb128 0x1a
  11374 3079 2C250000 		.4byte	.LASF575
  11375 307d 2F       		.byte	0x2f
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 206
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 206
 
 
  11376 307e 8D01     		.2byte	0x18d
@@ -12358,7 +12358,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11430 30f4 2F       		.byte	0x2f
  11431 30f5 3901     		.2byte	0x139
  11432 30f7 16310000 		.4byte	0x3116
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 207
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 207
 
 
  11433 30fb 1A       		.uleb128 0x1a
@@ -12418,7 +12418,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11487 316d 600D0000 		.4byte	.LASF600
  11488 3171 2F       		.byte	0x2f
  11489 3172 7301     		.2byte	0x173
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 208
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 208
 
 
  11490 3174 AB010000 		.4byte	0x1ab
@@ -12478,7 +12478,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11544 31eb 83100000 		.4byte	.LASF668
  11545 31ef 02       		.byte	0x2
  11546 31f0 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 209
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 209
 
 
  11547 31f1 02       		.uleb128 0x2
@@ -12538,7 +12538,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11601 325e 30       		.byte	0x30
  11602 325f 7B       		.byte	0x7b
  11603 3260 F6320000 		.4byte	0x32f6
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 210
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 210
 
 
  11604 3264 64       		.byte	0x64
@@ -12598,7 +12598,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11658 32d1 14       		.byte	0x14
  11659 32d2 0D       		.uleb128 0xd
  11660 32d3 35260000 		.4byte	.LASF680
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 211
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 211
 
 
  11661 32d7 30       		.byte	0x30
@@ -12658,7 +12658,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11715 3343 C9000000 		.4byte	.LASF687
  11716 3347 33       		.byte	0x33
  11717 3348 C4       		.byte	0xc4
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 212
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 212
 
 
  11718 3349 AB010000 		.4byte	0x1ab
@@ -12718,7 +12718,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11772 33b8 1A       		.uleb128 0x1a
  11773 33b9 CD010000 		.4byte	.LASF626
  11774 33bd 33       		.byte	0x33
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 213
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 213
 
 
  11775 33be 0301     		.2byte	0x103
@@ -12778,7 +12778,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11829 342d 33       		.byte	0x33
  11830 342e DE       		.byte	0xde
  11831 342f 07340000 		.4byte	0x3407
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 214
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 214
 
 
  11832 3433 0F       		.uleb128 0xf
@@ -12838,7 +12838,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11886 349f 7F210000 		.4byte	0x217f
  11887 34a3 1C       		.byte	0x1c
  11888 34a4 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 215
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 215
 
 
  11889 34a5 0F       		.uleb128 0xf
@@ -12898,7 +12898,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  11943 3514 8E350000 		.4byte	0x358e
  11944 3518 1A       		.uleb128 0x1a
  11945 3519 8D180000 		.4byte	.LASF494
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 216
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 216
 
 
  11946 351d 35       		.byte	0x35
@@ -12958,7 +12958,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12000 358f FB170000 		.4byte	.LASF710
  12001 3593 35       		.byte	0x35
  12002 3594 9E01     		.2byte	0x19e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 217
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 217
 
 
  12003 3596 9A350000 		.4byte	0x359a
@@ -13018,7 +13018,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12057 360b 35       		.byte	0x35
  12058 360c F201     		.2byte	0x1f2
  12059 360e FF340000 		.4byte	0x34ff
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 218
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 218
 
 
  12060 3612 02       		.uleb128 0x2
@@ -13078,7 +13078,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12114 3687 16120000 		.4byte	.LASF720
  12115 368b 37       		.byte	0x37
  12116 368c 9D01     		.2byte	0x19d
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 219
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 219
 
 
  12117 368e C6370000 		.4byte	0x37c6
@@ -13138,7 +13138,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12171 3703 D6400000 		.4byte	0x40d6
  12172 3707 54       		.byte	0x54
  12173 3708 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 220
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 220
 
 
  12174 3709 061C0000 		.4byte	.LASF729
@@ -13198,7 +13198,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12228 377a 2A       		.uleb128 0x2a
  12229 377b 20090000 		.4byte	.LASF738
  12230 377f 04       		.byte	0x4
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 221
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 221
 
 
  12231 3780 00       		.byte	0
@@ -13258,7 +13258,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12285 37ed 60160000 		.4byte	.LASF750
  12286 37f1 02       		.byte	0x2
  12287 37f2 2A       		.uleb128 0x2a
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 222
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 222
 
 
  12288 37f3 FB160000 		.4byte	.LASF751
@@ -13318,7 +13318,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12342 3865 12360000 		.4byte	0x3612
  12343 3869 07       		.uleb128 0x7
  12344 386a B3050000 		.4byte	.LASF759
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 223
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 223
 
 
  12345 386e 36       		.byte	0x36
@@ -13378,7 +13378,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12399 38ea 63380000 		.4byte	0x3863
  12400 38ee 18       		.uleb128 0x18
  12401 38ef 75010000 		.4byte	0x175
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 224
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 224
 
 
  12402 38f3 18       		.uleb128 0x18
@@ -13438,7 +13438,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12456 395f 18       		.byte	0x18
  12457 3960 0D       		.uleb128 0xd
  12458 3961 98040000 		.4byte	.LASF770
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 225
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 225
 
 
  12459 3965 38       		.byte	0x38
@@ -13498,7 +13498,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12513 39ce 50       		.byte	0x50
  12514 39cf B6010000 		.4byte	0x1b6
  12515 39d3 18       		.byte	0x18
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 226
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 226
 
 
  12516 39d4 0D       		.uleb128 0xd
@@ -13558,7 +13558,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12570 3a3d A20E0000 		.4byte	.LASF769
  12571 3a41 38       		.byte	0x38
  12572 3a42 62       		.byte	0x62
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 227
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 227
 
 
  12573 3a43 B6010000 		.4byte	0x1b6
@@ -13618,7 +13618,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12627 3ab2 14       		.byte	0x14
  12628 3ab3 0D       		.uleb128 0xd
  12629 3ab4 C41D0000 		.4byte	.LASF790
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 228
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 228
 
 
  12630 3ab8 38       		.byte	0x38
@@ -13678,7 +13678,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12684 3b24 38       		.byte	0x38
  12685 3b25 7D       		.byte	0x7d
  12686 3b26 B6010000 		.4byte	0x1b6
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 229
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 229
 
 
  12687 3b2a 3C       		.byte	0x3c
@@ -13738,7 +13738,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12741 3b9d 1004     		.2byte	0x410
  12742 3b9f 15       		.uleb128 0x15
  12743 3ba0 AB040000 		.4byte	.LASF808
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 230
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 230
 
 
  12744 3ba4 38       		.byte	0x38
@@ -13798,7 +13798,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12798 3c18 38       		.byte	0x38
  12799 3c19 97       		.byte	0x97
  12800 3c1a B6010000 		.4byte	0x1b6
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 231
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 231
 
 
  12801 3c1e 0808     		.2byte	0x808
@@ -13858,7 +13858,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12855 3c93 2C08     		.2byte	0x82c
  12856 3c95 15       		.uleb128 0x15
  12857 3c96 75070000 		.4byte	.LASF826
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 232
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 232
 
 
  12858 3c9a 38       		.byte	0x38
@@ -13918,7 +13918,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12912 3d0d 38       		.byte	0x38
  12913 3d0e B1       		.byte	0xb1
  12914 3d0f B13D0000 		.4byte	0x3db1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 233
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 233
 
 
  12915 3d13 000D     		.2byte	0xd00
@@ -13978,7 +13978,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  12969 3d8c 10       		.uleb128 0x10
  12970 3d8d 7C3D0000 		.4byte	0x3d7c
  12971 3d91 0A       		.uleb128 0xa
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 234
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 234
 
 
  12972 3d92 6D390000 		.4byte	0x396d
@@ -14038,7 +14038,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13026 3e10 B1000000 		.4byte	0xb1
  13027 3e14 FF03     		.2byte	0x3ff
  13028 3e16 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 235
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 235
 
 
  13029 3e17 10       		.uleb128 0x10
@@ -14098,7 +14098,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13083 3e7d 8E3E0000 		.4byte	0x3e8e
  13084 3e81 0D       		.uleb128 0xd
  13085 3e82 760A0000 		.4byte	.LASF527
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 236
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 236
 
 
  13086 3e86 37       		.byte	0x37
@@ -14158,7 +14158,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13140 3eec 64100000 		.4byte	.LASF847
  13141 3ef0 37       		.byte	0x37
  13142 3ef1 ED       		.byte	0xed
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 237
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 237
 
 
  13143 3ef2 B8000000 		.4byte	0xb8
@@ -14218,7 +14218,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13197 3f5c F3       		.byte	0xf3
  13198 3f5d A03F0000 		.4byte	0x3fa0
  13199 3f61 0D       		.uleb128 0xd
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 238
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 238
 
 
  13200 3f62 B0060000 		.4byte	.LASF850
@@ -14278,7 +14278,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13254 3fd4 37       		.byte	0x37
  13255 3fd5 2D01     		.2byte	0x12d
  13256 3fd7 69380000 		.4byte	0x3869
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 239
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 239
 
 
  13257 3fdb 08       		.byte	0x8
@@ -14338,7 +14338,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13311 404c AC3F0000 		.4byte	0x3fac
  13312 4050 0F       		.uleb128 0xf
  13313 4051 44400000 		.4byte	0x4044
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 240
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 240
 
 
  13314 4055 1D       		.uleb128 0x1d
@@ -14398,7 +14398,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13368 40ca B1000000 		.4byte	0xb1
  13369 40ce 02       		.byte	0x2
  13370 40cf 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 241
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 241
 
 
  13371 40d0 05       		.uleb128 0x5
@@ -14458,7 +14458,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13425 413d 82210000 		.4byte	.LASF877
  13426 4141 03       		.byte	0x3
  13427 4142 2A       		.uleb128 0x2a
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 242
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 242
 
 
  13428 4143 7A000000 		.4byte	.LASF878
@@ -14518,7 +14518,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13482 41b2 39       		.byte	0x39
  13483 41b3 D7       		.byte	0xd7
  13484 41b4 AB010000 		.4byte	0x1ab
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 243
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 243
 
 
  13485 41b8 10       		.byte	0x10
@@ -14578,7 +14578,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13539 4224 DC410000 		.4byte	0x41dc
  13540 4228 08       		.byte	0x8
  13541 4229 13       		.uleb128 0x13
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 244
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 244
 
 
  13542 422a 637200   		.ascii	"cr\000"
@@ -14638,7 +14638,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13596 4298 FC200000 		.4byte	.LASF896
  13597 429c 04       		.byte	0x4
  13598 429d 2A       		.uleb128 0x2a
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 245
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 245
 
 
  13599 429e 65080000 		.4byte	.LASF897
@@ -14698,7 +14698,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13653 430a 00       		.byte	0
  13654 430b 0F       		.uleb128 0xf
  13655 430c 00430000 		.4byte	0x4300
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 246
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 246
 
 
  13656 4310 11       		.uleb128 0x11
@@ -14758,7 +14758,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13710 4380 31       		.uleb128 0x31
  13711 4381 4C0C0000 		.4byte	.LASF917
  13712 4385 01       		.byte	0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 247
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 247
 
 
  13713 4386 31       		.byte	0x31
@@ -14818,7 +14818,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13767 43fb 34       		.uleb128 0x34
  13768 43fc 633200   		.ascii	"c2\000"
  13769 43ff 01       		.byte	0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 248
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 248
 
 
  13770 4400 3C       		.byte	0x3c
@@ -14878,7 +14878,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13824 446c AA000000 		.4byte	0xaa
  13825 4470 05       		.uleb128 0x5
  13826 4471 03       		.byte	0x3
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 249
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 249
 
 
  13827 4472 00000000 		.4byte	positionr.12666
@@ -14938,7 +14938,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13881 44e7 05       		.uleb128 0x5
  13882 44e8 03       		.byte	0x3
  13883 44e9 00000000 		.4byte	sound.12673
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 250
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 250
 
 
  13884 44ed 35       		.uleb128 0x35
@@ -14998,7 +14998,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13938 455f 03       		.byte	0x3
  13939 4560 00000000 		.4byte	cam_zoom.12680
  13940 4564 35       		.uleb128 0x35
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 251
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 251
 
 
  13941 4565 D60B0000 		.4byte	.LASF938
@@ -15058,7 +15058,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  13995 45da 76616C00 		.ascii	"val\000"
  13996 45de 01       		.byte	0x1
  13997 45df 41       		.byte	0x41
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 252
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 252
 
 
  13998 45e0 AA000000 		.4byte	0xaa
@@ -15118,7 +15118,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14052 4664 3A       		.uleb128 0x3a
  14053 4665 5F5F7800 		.ascii	"__x\000"
  14054 4669 01       		.byte	0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 253
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 253
 
 
  14055 466a 6802     		.2byte	0x268
@@ -15178,7 +15178,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14109 46e8 02       		.uleb128 0x2
  14110 46e9 78       		.byte	0x78
  14111 46ea 00       		.sleb128 0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 254
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 254
 
 
  14112 46eb 00       		.byte	0
@@ -15238,7 +15238,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14166 4757 50       		.byte	0x50
  14167 4758 02       		.uleb128 0x2
  14168 4759 78       		.byte	0x78
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 255
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 255
 
 
  14169 475a 00       		.sleb128 0
@@ -15298,7 +15298,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14223 47ba 00       		.sleb128 0
  14224 47bb 3E       		.uleb128 0x3e
  14225 47bc 01       		.uleb128 0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 256
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 256
 
 
  14226 47bd 51       		.byte	0x51
@@ -15358,7 +15358,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14280 4829 100A0000 		.4byte	.LC87
  14281 482d 00       		.byte	0
  14282 482e 3D       		.uleb128 0x3d
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 257
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 257
 
 
  14283 482f 980D0000 		.4byte	.LVL154
@@ -15418,7 +15418,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14337 488f 7D       		.byte	0x7d
  14338 4890 00       		.sleb128 0
  14339 4891 02       		.uleb128 0x2
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 258
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 258
 
 
  14340 4892 74       		.byte	0x74
@@ -15478,7 +15478,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14394 4904 18490000 		.4byte	0x4918
  14395 4908 3E       		.uleb128 0x3e
  14396 4909 01       		.uleb128 0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 259
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 259
 
 
  14397 490a 50       		.byte	0x50
@@ -15538,7 +15538,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14451 4970 51       		.byte	0x51
  14452 4971 05       		.uleb128 0x5
  14453 4972 03       		.byte	0x3
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 260
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 260
 
 
  14454 4973 8C090000 		.4byte	.LC76
@@ -15598,7 +15598,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14508 49d0 00000000 		.4byte	.LANCHOR24
  14509 49d4 3E       		.uleb128 0x3e
  14510 49d5 01       		.uleb128 0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 261
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 261
 
 
  14511 49d6 53       		.byte	0x53
@@ -15658,7 +15658,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14565 4a3c E20E0000 		.4byte	.LVL181
  14566 4a40 AA690000 		.4byte	0x69aa
  14567 4a44 4E4A0000 		.4byte	0x4a4e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 262
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 262
 
 
  14568 4a48 3E       		.uleb128 0x3e
@@ -15718,7 +15718,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14622 4aab 35       		.byte	0x35
  14623 4aac 00       		.byte	0
  14624 4aad 3D       		.uleb128 0x3d
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 263
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 263
 
 
  14625 4aae 120F0000 		.4byte	.LVL187
@@ -15778,7 +15778,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14679 4b04 91       		.byte	0x91
  14680 4b05 987F     		.sleb128 -104
  14681 4b07 06       		.byte	0x6
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 264
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 264
 
 
  14682 4b08 3E       		.uleb128 0x3e
@@ -15838,7 +15838,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14736 4b54 31690000 		.4byte	0x6931
  14737 4b58 3D       		.uleb128 0x3d
  14738 4b59 BE0F0000 		.4byte	.LVL193
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 265
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 265
 
 
  14739 4b5d B5690000 		.4byte	0x69b5
@@ -15898,7 +15898,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14793 4bc6 50       		.byte	0x50
  14794 4bc7 01       		.uleb128 0x1
  14795 4bc8 35       		.byte	0x35
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 266
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 266
 
 
  14796 4bc9 00       		.byte	0
@@ -15958,7 +15958,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14850 4c1f 00       		.sleb128 0
  14851 4c20 04       		.uleb128 0x4
  14852 4c21 91       		.byte	0x91
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 267
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 267
 
 
  14853 4c22 987F     		.sleb128 -104
@@ -16018,7 +16018,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14907 4c6c 3B       		.uleb128 0x3b
  14908 4c6d 24100000 		.4byte	.LVL204
  14909 4c71 31690000 		.4byte	0x6931
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 268
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 268
 
 
  14910 4c75 3D       		.uleb128 0x3d
@@ -16078,7 +16078,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  14964 4cd2 53       		.byte	0x53
  14965 4cd3 02       		.uleb128 0x2
  14966 4cd4 75       		.byte	0x75
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 269
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 269
 
 
  14967 4cd5 00       		.sleb128 0
@@ -16138,7 +16138,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15021 4d3e 01       		.uleb128 0x1
  15022 4d3f 38       		.byte	0x38
  15023 4d40 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 270
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 270
 
 
  15024 4d41 01       		.uleb128 0x1
@@ -16198,7 +16198,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15078 4d98 FF       		.byte	0xff
  15079 4d99 1A       		.byte	0x1a
  15080 4d9a 23       		.byte	0x23
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 271
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 271
 
 
  15081 4d9b 01       		.uleb128 0x1
@@ -16258,7 +16258,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15135 4df6 78       		.byte	0x78
  15136 4df7 00       		.sleb128 0
  15137 4df8 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 272
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 272
 
 
  15138 4df9 3D       		.uleb128 0x3d
@@ -16318,7 +16318,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15192 4e5c A8110000 		.4byte	.LVL228
  15193 4e60 31690000 		.4byte	0x6931
  15194 4e64 3D       		.uleb128 0x3d
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 273
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 273
 
 
  15195 4e65 DA110000 		.4byte	.LVL229
@@ -16378,7 +16378,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15249 4ec8 50       		.byte	0x50
  15250 4ec9 01       		.uleb128 0x1
  15251 4eca 30       		.byte	0x30
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 274
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 274
 
 
  15252 4ecb 3E       		.uleb128 0x3e
@@ -16438,7 +16438,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15306 4f1f 52       		.byte	0x52
  15307 4f20 02       		.uleb128 0x2
  15308 4f21 74       		.byte	0x74
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 275
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 275
 
 
  15309 4f22 00       		.sleb128 0
@@ -16498,7 +16498,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15363 4f82 60120000 		.4byte	.LVL242
  15364 4f86 E1690000 		.4byte	0x69e1
  15365 4f8a 994F0000 		.4byte	0x4f99
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 276
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 276
 
 
  15366 4f8e 3E       		.uleb128 0x3e
@@ -16558,7 +16558,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15420 4fef 00       		.byte	0
  15421 4ff0 3B       		.uleb128 0x3b
  15422 4ff1 82120000 		.4byte	.LVL248
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 277
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 277
 
 
  15423 4ff5 31690000 		.4byte	0x6931
@@ -16618,7 +16618,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15477 505b 01       		.uleb128 0x1
  15478 505c 51       		.byte	0x51
  15479 505d 05       		.uleb128 0x5
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 278
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 278
 
 
  15480 505e 03       		.byte	0x3
@@ -16678,7 +16678,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15534 50c1 01       		.uleb128 0x1
  15535 50c2 53       		.byte	0x53
  15536 50c3 05       		.uleb128 0x5
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 279
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 279
 
 
  15537 50c4 03       		.byte	0x3
@@ -16738,7 +16738,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15591 5139 01       		.uleb128 0x1
  15592 513a 52       		.byte	0x52
  15593 513b 02       		.uleb128 0x2
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 280
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 280
 
 
  15594 513c 74       		.byte	0x74
@@ -16798,7 +16798,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15648 5196 03       		.byte	0x3
  15649 5197 00000000 		.4byte	.LANCHOR31
  15650 519b 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 281
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 281
 
 
  15651 519c 01       		.uleb128 0x1
@@ -16858,7 +16858,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15705 5208 05       		.uleb128 0x5
  15706 5209 03       		.byte	0x3
  15707 520a 14010000 		.4byte	.LC16
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 282
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 282
 
 
  15708 520e 3E       		.uleb128 0x3e
@@ -16918,7 +16918,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15762 5274 62140000 		.4byte	.LVL283
  15763 5278 26690000 		.4byte	0x6926
  15764 527c 90520000 		.4byte	0x5290
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 283
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 283
 
 
  15765 5280 3E       		.uleb128 0x3e
@@ -16978,7 +16978,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15819 52dd 86140000 		.4byte	.LVL288
  15820 52e1 31690000 		.4byte	0x6931
  15821 52e5 3D       		.uleb128 0x3d
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 284
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 284
 
 
  15822 52e6 92140000 		.4byte	.LVL289
@@ -17038,7 +17038,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15876 5352 01       		.uleb128 0x1
  15877 5353 48       		.byte	0x48
  15878 5354 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 285
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 285
 
 
  15879 5355 3B       		.uleb128 0x3b
@@ -17098,7 +17098,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15933 53c1 01       		.uleb128 0x1
  15934 53c2 51       		.byte	0x51
  15935 53c3 02       		.uleb128 0x2
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 286
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 286
 
 
  15936 53c4 08       		.byte	0x8
@@ -17158,7 +17158,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  15990 542d 03       		.byte	0x3
  15991 542e D8030000 		.4byte	.LC32
  15992 5432 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 287
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 287
 
 
  15993 5433 01       		.uleb128 0x1
@@ -17218,7 +17218,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16047 549c 50       		.byte	0x50
  16048 549d 05       		.uleb128 0x5
  16049 549e 03       		.byte	0x3
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 288
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 288
 
 
  16050 549f 50040000 		.4byte	.LC35
@@ -17278,7 +17278,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16104 5508 1C550000 		.4byte	0x551c
  16105 550c 3E       		.uleb128 0x3e
  16106 550d 01       		.uleb128 0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 289
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 289
 
 
  16107 550e 50       		.byte	0x50
@@ -17338,7 +17338,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16161 5571 3B       		.uleb128 0x3b
  16162 5572 AA150000 		.4byte	.LVL324
  16163 5576 31690000 		.4byte	0x6931
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 290
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 290
 
 
  16164 557a 3D       		.uleb128 0x3d
@@ -17398,7 +17398,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16218 55dd 03       		.byte	0x3
  16219 55de 7C080000 		.4byte	.LC64
  16220 55e2 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 291
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 291
 
 
  16221 55e3 01       		.uleb128 0x1
@@ -17458,7 +17458,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16275 5638 03       		.byte	0x3
  16276 5639 94080000 		.4byte	.LC65
  16277 563d 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 292
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 292
 
 
  16278 563e 01       		.uleb128 0x1
@@ -17518,7 +17518,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16332 56a1 72170000 		.4byte	.LVL339
  16333 56a5 26690000 		.4byte	0x6926
  16334 56a9 BC560000 		.4byte	0x56bc
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 293
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 293
 
 
  16335 56ad 3E       		.uleb128 0x3e
@@ -17578,7 +17578,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16389 570f 22570000 		.4byte	0x5722
  16390 5713 3E       		.uleb128 0x3e
  16391 5714 01       		.uleb128 0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 294
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 294
 
 
  16392 5715 50       		.byte	0x50
@@ -17638,7 +17638,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16446 5765 79570000 		.4byte	0x5779
  16447 5769 3E       		.uleb128 0x3e
  16448 576a 01       		.uleb128 0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 295
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 295
 
 
  16449 576b 50       		.byte	0x50
@@ -17698,7 +17698,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16503 57c8 78       		.byte	0x78
  16504 57c9 00       		.sleb128 0
  16505 57ca 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 296
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 296
 
 
  16506 57cb 3B       		.uleb128 0x3b
@@ -17758,7 +17758,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16560 583d 01       		.uleb128 0x1
  16561 583e 38       		.byte	0x38
  16562 583f 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 297
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 297
 
 
  16563 5840 01       		.uleb128 0x1
@@ -17818,7 +17818,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16617 58aa AA690000 		.4byte	0x69aa
  16618 58ae BB580000 		.4byte	0x58bb
  16619 58b2 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 298
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 298
 
 
  16620 58b3 01       		.uleb128 0x1
@@ -17878,7 +17878,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16674 5917 01       		.uleb128 0x1
  16675 5918 35       		.byte	0x35
  16676 5919 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 299
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 299
 
 
  16677 591a 3D       		.uleb128 0x3d
@@ -17938,7 +17938,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16731 597d 03       		.byte	0x3
  16732 597e 58090000 		.4byte	.LC73
  16733 5982 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 300
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 300
 
 
  16734 5983 01       		.uleb128 0x1
@@ -17998,7 +17998,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16788 59be 14       		.sleb128 20
  16789 59bf 02       		.uleb128 0x2
  16790 59c0 76       		.byte	0x76
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 301
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 301
 
 
  16791 59c1 00       		.sleb128 0
@@ -18058,7 +18058,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16845 5a25 05       		.uleb128 0x5
  16846 5a26 03       		.byte	0x3
  16847 5a27 580A0000 		.4byte	.LC91
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 302
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 302
 
 
  16848 5a2b 00       		.byte	0
@@ -18118,7 +18118,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16902 5aa3 A76A0000 		.4byte	0x6aa7
  16903 5aa7 3B       		.uleb128 0x3b
  16904 5aa8 EA1B0000 		.4byte	.LVL425
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 303
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 303
 
 
  16905 5aac 1B690000 		.4byte	0x691b
@@ -18178,7 +18178,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  16959 5b30 02       		.uleb128 0x2
  16960 5b31 78       		.byte	0x78
  16961 5b32 00       		.sleb128 0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 304
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 304
 
 
  16962 5b33 00       		.byte	0
@@ -18238,7 +18238,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17016 5b9d 01       		.uleb128 0x1
  17017 5b9e 33       		.byte	0x33
  17018 5b9f 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 305
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 305
 
 
  17019 5ba0 3D       		.uleb128 0x3d
@@ -18298,7 +18298,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17073 5c0c 3E       		.uleb128 0x3e
  17074 5c0d 01       		.uleb128 0x1
  17075 5c0e 50       		.byte	0x50
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 306
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 306
 
 
  17076 5c0f 01       		.uleb128 0x1
@@ -18358,7 +18358,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17130 5c55 91       		.byte	0x91
  17131 5c56 9C7F     		.sleb128 -100
  17132 5c58 06       		.byte	0x6
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 307
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 307
 
 
  17133 5c59 3E       		.uleb128 0x3e
@@ -18418,7 +18418,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17187 5ca5 A76A0000 		.4byte	0x6aa7
  17188 5ca9 3B       		.uleb128 0x3b
  17189 5caa 341D0000 		.4byte	.LVL453
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 308
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 308
 
 
  17190 5cae 9C6A0000 		.4byte	0x6a9c
@@ -18478,7 +18478,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17244 5d20 03       		.byte	0x3
  17245 5d21 98000000 		.4byte	.LC6
  17246 5d25 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 309
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 309
 
 
  17247 5d26 01       		.uleb128 0x1
@@ -18538,7 +18538,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17301 5d98 00       		.byte	0
  17302 5d99 3B       		.uleb128 0x3b
  17303 5d9a C01D0000 		.4byte	.LVL469
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 310
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 310
 
 
  17304 5d9e A76A0000 		.4byte	0x6aa7
@@ -18598,7 +18598,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17358 5e07 01       		.uleb128 0x1
  17359 5e08 47       		.byte	0x47
  17360 5e09 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 311
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 311
 
 
  17361 5e0a 3B       		.uleb128 0x3b
@@ -18658,7 +18658,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17415 5e76 51       		.byte	0x51
  17416 5e77 02       		.uleb128 0x2
  17417 5e78 08       		.byte	0x8
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 312
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 312
 
 
  17418 5e79 2B       		.byte	0x2b
@@ -18718,7 +18718,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17472 5ee5 01       		.uleb128 0x1
  17473 5ee6 51       		.byte	0x51
  17474 5ee7 01       		.uleb128 0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 313
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 313
 
 
  17475 5ee8 49       		.byte	0x49
@@ -18778,7 +18778,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17529 5f51 D8070000 		.4byte	.LC59
  17530 5f55 3E       		.uleb128 0x3e
  17531 5f56 01       		.uleb128 0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 314
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 314
 
 
  17532 5f57 51       		.byte	0x51
@@ -18838,7 +18838,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17586 5fc0 05       		.uleb128 0x5
  17587 5fc1 03       		.byte	0x3
  17588 5fc2 48080000 		.4byte	.LC62
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 315
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 315
 
 
  17589 5fc6 3E       		.uleb128 0x3e
@@ -18898,7 +18898,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17643 6032 00       		.byte	0
  17644 6033 3D       		.uleb128 0x3d
  17645 6034 F41E0000 		.4byte	.LVL506
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 316
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 316
 
 
  17646 6038 EC690000 		.4byte	0x69ec
@@ -18958,7 +18958,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17700 6089 75       		.byte	0x75
  17701 608a 00       		.sleb128 0
  17702 608b 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 317
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 317
 
 
  17703 608c 3D       		.uleb128 0x3d
@@ -19018,7 +19018,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17757 6101 5D690000 		.4byte	0x695d
  17758 6105 25610000 		.4byte	0x6125
  17759 6109 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 318
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 318
 
 
  17760 610a 01       		.uleb128 0x1
@@ -19078,7 +19078,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17814 6161 3E       		.uleb128 0x3e
  17815 6162 01       		.uleb128 0x1
  17816 6163 51       		.byte	0x51
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 319
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 319
 
 
  17817 6164 01       		.uleb128 0x1
@@ -19138,7 +19138,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17871 61d6 3B       		.uleb128 0x3b
  17872 61d7 18000000 		.4byte	.LVL2
  17873 61db 0A6B0000 		.4byte	0x6b0a
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 320
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 320
 
 
  17874 61df 3B       		.uleb128 0x3b
@@ -19198,7 +19198,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17928 623d 00       		.sleb128 0
  17929 623e 3E       		.uleb128 0x3e
  17930 623f 02       		.uleb128 0x2
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 321
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 321
 
 
  17931 6240 7D       		.byte	0x7d
@@ -19258,7 +19258,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  17985 62b2 2B6B0000 		.4byte	0x6b2b
  17986 62b6 D6620000 		.4byte	0x62d6
  17987 62ba 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 322
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 322
 
 
  17988 62bb 01       		.uleb128 0x1
@@ -19318,7 +19318,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18042 631c 01       		.uleb128 0x1
  18043 631d 50       		.byte	0x50
  18044 631e 02       		.uleb128 0x2
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 323
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 323
 
 
  18045 631f 74       		.byte	0x74
@@ -19378,7 +19378,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18099 6385 B4020000 		.4byte	.LVL45
  18100 6389 CB690000 		.4byte	0x69cb
  18101 638d 98630000 		.4byte	0x6398
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 324
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 324
 
 
  18102 6391 3E       		.uleb128 0x3e
@@ -19438,7 +19438,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18156 63f1 03       		.uleb128 0x3
  18157 63f2 0A       		.byte	0xa
  18158 63f3 501F     		.2byte	0x1f50
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 325
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 325
 
 
  18159 63f5 00       		.byte	0
@@ -19498,7 +19498,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18213 6455 00       		.sleb128 0
  18214 6456 00       		.byte	0
  18215 6457 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 326
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 326
 
 
  18216 6458 60050000 		.4byte	.LVL64
@@ -19558,7 +19558,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18270 64c7 416B0000 		.4byte	0x6b41
  18271 64cb D6640000 		.4byte	0x64d6
  18272 64cf 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 327
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 327
 
 
  18273 64d0 01       		.uleb128 0x1
@@ -19618,7 +19618,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18327 6536 00       		.sleb128 0
  18328 6537 00       		.byte	0
  18329 6538 3D       		.uleb128 0x3d
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 328
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 328
 
 
  18330 6539 8C060000 		.4byte	.LVL78
@@ -19678,7 +19678,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18384 65a8 4C6B0000 		.4byte	0x6b4c
  18385 65ac B7650000 		.4byte	0x65b7
  18386 65b0 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 329
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 329
 
 
  18387 65b1 01       		.uleb128 0x1
@@ -19738,7 +19738,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18441 6620 50       		.byte	0x50
  18442 6621 02       		.uleb128 0x2
  18443 6622 74       		.byte	0x74
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 330
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 330
 
 
  18444 6623 00       		.sleb128 0
@@ -19798,7 +19798,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18498 668c 4C6B0000 		.4byte	0x6b4c
  18499 6690 9B660000 		.4byte	0x669b
  18500 6694 3E       		.uleb128 0x3e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 331
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 331
 
 
  18501 6695 01       		.uleb128 0x1
@@ -19858,7 +19858,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18555 66fb 05670000 		.4byte	0x6705
  18556 66ff 3E       		.uleb128 0x3e
  18557 6700 01       		.uleb128 0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 332
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 332
 
 
  18558 6701 50       		.byte	0x50
@@ -19918,7 +19918,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18612 6776 416B0000 		.4byte	0x6b41
  18613 677a 3B       		.uleb128 0x3b
  18614 677b D00A0000 		.4byte	.LVL124
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 333
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 333
 
 
  18615 677f 416B0000 		.4byte	0x6b41
@@ -19978,7 +19978,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18669 67e2 01       		.uleb128 0x1
  18670 67e3 52       		.byte	0x52
  18671 67e4 01       		.uleb128 0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 334
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 334
 
 
  18672 67e5 31       		.byte	0x31
@@ -20038,7 +20038,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18726 685a EA180000 		.4byte	.LVL359
  18727 685e B26A0000 		.4byte	0x6ab2
  18728 6862 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 335
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 335
 
 
  18729 6863 F8180000 		.4byte	.LVL361
@@ -20098,7 +20098,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18783 68e4 74       		.byte	0x74
  18784 68e5 00       		.sleb128 0
  18785 68e6 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 336
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 336
 
 
  18786 68e7 3D       		.uleb128 0x3d
@@ -20158,7 +20158,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18840 695c 2A       		.byte	0x2a
  18841 695d 3F       		.uleb128 0x3f
  18842 695e E4080000 		.4byte	.LASF957
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 337
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 337
 
 
  18843 6962 E4080000 		.4byte	.LASF957
@@ -20218,7 +20218,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18897 69d7 3C260000 		.4byte	.LASF968
  18898 69db 3C260000 		.4byte	.LASF968
  18899 69df 43       		.byte	0x43
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 338
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 338
 
 
  18900 69e0 3A       		.byte	0x3a
@@ -20278,7 +20278,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  18954 6a58 49       		.byte	0x49
  18955 6a59 1D       		.byte	0x1d
  18956 6a5a 3F       		.uleb128 0x3f
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 339
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 339
 
 
  18957 6a5b 011D0000 		.4byte	.LASF980
@@ -20338,7 +20338,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19011 6ad3 3F       		.uleb128 0x3f
  19012 6ad4 6D000000 		.4byte	.LASF991
  19013 6ad8 6D000000 		.4byte	.LASF991
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 340
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 340
 
 
  19014 6adc 4C       		.byte	0x4c
@@ -20398,7 +20398,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19068 6b51 46230000 		.4byte	.LASF1002
  19069 6b55 40       		.byte	0x40
  19070 6b56 84       		.byte	0x84
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 341
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 341
 
 
  19071 6b57 3F       		.uleb128 0x3f
@@ -20458,7 +20458,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19125 0014 16       		.uleb128 0x16
  19126 0015 00       		.byte	0
  19127 0016 03       		.uleb128 0x3
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 342
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 342
 
 
  19128 0017 0E       		.uleb128 0xe
@@ -20518,7 +20518,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19182 004d 3A       		.uleb128 0x3a
  19183 004e 0B       		.uleb128 0xb
  19184 004f 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 343
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 343
 
 
  19185 0050 05       		.uleb128 0x5
@@ -20578,7 +20578,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19239 0086 3A       		.uleb128 0x3a
  19240 0087 0B       		.uleb128 0xb
  19241 0088 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 344
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 344
 
 
  19242 0089 0B       		.uleb128 0xb
@@ -20638,7 +20638,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19296 00bf 3C       		.uleb128 0x3c
  19297 00c0 19       		.uleb128 0x19
  19298 00c1 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 345
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 345
 
 
  19299 00c2 00       		.byte	0
@@ -20698,7 +20698,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19353 00f8 0B       		.uleb128 0xb
  19354 00f9 49       		.uleb128 0x49
  19355 00fa 13       		.uleb128 0x13
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 346
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 346
 
 
  19356 00fb 38       		.uleb128 0x38
@@ -20758,7 +20758,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19410 0131 13       		.uleb128 0x13
  19411 0132 38       		.uleb128 0x38
  19412 0133 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 347
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 347
 
 
  19413 0134 00       		.byte	0
@@ -20818,7 +20818,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19467 016a 01       		.uleb128 0x1
  19468 016b 13       		.uleb128 0x13
  19469 016c 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 348
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 348
 
 
  19470 016d 00       		.byte	0
@@ -20878,7 +20878,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19524 01a3 49       		.uleb128 0x49
  19525 01a4 13       		.uleb128 0x13
  19526 01a5 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 349
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 349
 
 
  19527 01a6 00       		.byte	0
@@ -20938,7 +20938,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19581 01dc 13       		.uleb128 0x13
  19582 01dd 00       		.byte	0
  19583 01de 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 350
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 350
 
 
  19584 01df 28       		.uleb128 0x28
@@ -20998,7 +20998,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19638 0215 3B       		.uleb128 0x3b
  19639 0216 05       		.uleb128 0x5
  19640 0217 01       		.uleb128 0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 351
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 351
 
 
  19641 0218 13       		.uleb128 0x13
@@ -21058,7 +21058,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19695 024e 19       		.uleb128 0x19
  19696 024f 00       		.byte	0
  19697 0250 00       		.byte	0
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 352
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 352
 
 
  19698 0251 30       		.uleb128 0x30
@@ -21118,7 +21118,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19752 0287 11       		.uleb128 0x11
  19753 0288 01       		.uleb128 0x1
  19754 0289 12       		.uleb128 0x12
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 353
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 353
 
 
  19755 028a 06       		.uleb128 0x6
@@ -21178,7 +21178,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19809 02c1 00       		.byte	0
  19810 02c2 03       		.uleb128 0x3
  19811 02c3 08       		.uleb128 0x8
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 354
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 354
 
 
  19812 02c4 3A       		.uleb128 0x3a
@@ -21238,7 +21238,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19866 02fc 11       		.uleb128 0x11
  19867 02fd 01       		.uleb128 0x1
  19868 02fe 31       		.uleb128 0x31
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 355
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 355
 
 
  19869 02ff 13       		.uleb128 0x13
@@ -21298,7 +21298,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19923 033a 3C       		.uleb128 0x3c
  19924 033b 19       		.uleb128 0x19
  19925 033c 6E       		.uleb128 0x6e
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 356
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 356
 
 
  19926 033d 0E       		.uleb128 0xe
@@ -21358,7 +21358,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  19980 006a 03       		.byte	0x3
  19981 006b 0B000000 		.4byte	accelero.12692+11
  19982 006f 9F       		.byte	0x9f
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 357
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 357
 
 
  19983 0070 00000000 		.4byte	0
@@ -21418,7 +21418,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20037 00fd A0020000 		.4byte	.LVL43
  20038 0101 AE020000 		.4byte	.LVL44
  20039 0105 0100     		.2byte	0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 358
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 358
 
 
  20040 0107 50       		.byte	0x50
@@ -21478,7 +21478,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20094 0196 08030000 		.4byte	.LVL47
  20095 019a 98030000 		.4byte	.LVL51
  20096 019e 0100     		.2byte	0x1
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 359
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 359
 
 
  20097 01a0 5B       		.byte	0x5b
@@ -21538,7 +21538,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20151 022d 30       		.byte	0x30
  20152 022e 9F       		.byte	0x9f
  20153 022f 1A190000 		.4byte	.LVL364
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 360
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 360
 
 
  20154 0233 84190000 		.4byte	.LVL365
@@ -21598,7 +21598,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20208              	.Ldebug_line0:
  20209 0000 A11B0000 		.section	.debug_str,"MS",%progbits,1
  20209      02002D12 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 361
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 361
 
 
  20209      00000201 
@@ -21658,7 +21658,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20233 008e 6D73675F 		.ascii	"msg_t\000"
  20233      7400
  20234              	.LASF467:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 362
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 362
 
 
  20235 0094 61667268 		.ascii	"afrh\000"
@@ -21718,7 +21718,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20261      79737465 
  20261      6D5F7400 
  20262              	.LASF1:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 363
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 363
 
 
  20263 0127 5F5F7569 		.ascii	"__uint8_t\000"
@@ -21778,7 +21778,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20290              	.LASF439:
  20291 01b8 424C4B5F 		.ascii	"BLK_UNINIT\000"
  20291      554E494E 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 364
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 364
 
 
  20291      495400
@@ -21838,7 +21838,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20324              	.LASF893:
  20325 0236 57455F41 		.ascii	"WE_ARE_THE_CHAMPIONS\000"
  20325      52455F54 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 365
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 365
 
 
  20325      48455F43 
@@ -21898,7 +21898,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20355 02c2 656C5F6E 		.ascii	"el_next\000"
  20355      65787400 
  20356              	.LASF914:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 366
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 366
 
 
  20357 02ca 696E636C 		.ascii	"inclination\000"
@@ -21958,7 +21958,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20383      00
  20384              	.LASF102:
  20385 0358 5F6C6F63 		.ascii	"_lock\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 367
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 367
 
 
  20385      6B00
@@ -22018,7 +22018,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20415      6174655F 
  20415      697200
  20416              	.LASF608:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 368
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 368
 
 
  20417 03ed 4932435F 		.ascii	"I2C_ACTIVE_RX\000"
@@ -22078,7 +22078,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20444              	.LASF134:
  20445 0483 5F616464 		.ascii	"_add\000"
  20445      00
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 369
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 369
 
 
  20446              	.LASF317:
@@ -22138,7 +22138,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20475      00
  20476              	.LASF434:
  20477 050c 69736869 		.ascii	"ishift\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 370
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 370
 
 
  20477      667400
@@ -22198,7 +22198,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20503      725F6E61 
  20503      6D657370 
  20503      6163655F 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 371
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 371
 
 
  20504              	.LASF784:
@@ -22258,7 +22258,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20531      616C6962 
  20531      72617469 
  20531      6F6E5F74 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 372
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 372
 
 
  20531      00
@@ -22318,7 +22318,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20558              	.LASF126:
  20559 06d4 5F5F7366 		.ascii	"__sf\000"
  20559      00
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 373
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 373
 
 
  20560              	.LASF920:
@@ -22378,7 +22378,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20588              	.LASF368:
  20589 0761 6E5F6972 		.ascii	"n_irq\000"
  20589      7100
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 374
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 374
 
 
  20590              	.LASF45:
@@ -22438,7 +22438,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20619      73697A65 
  20619      00
  20620              	.LASF606:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 375
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 375
 
 
  20621 07f1 4932435F 		.ascii	"I2C_READY\000"
@@ -22498,7 +22498,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20650              	.LASF444:
  20651 0877 424C4B5F 		.ascii	"BLK_READY\000"
  20651      52454144 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 376
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 376
 
 
  20651      5900
@@ -22558,7 +22558,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20679      616D5F54 
  20679      79706544 
  20679      656600
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 377
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 377
 
 
  20680              	.LASF503:
@@ -22618,7 +22618,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20708              	.LASF640:
  20709 099c 69327363 		.ascii	"i2scallback_t\000"
  20709      616C6C62 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 378
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 378
 
 
  20709      61636B5F 
@@ -22678,7 +22678,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20734              	.LASF533:
  20735 0a36 77616B65 		.ascii	"wakeup_event\000"
  20735      75705F65 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 379
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 379
 
 
  20735      76656E74 
@@ -22738,7 +22738,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20765 0abe 5F6D6273 		.ascii	"_mbsrtowcs_state\000"
  20765      72746F77 
  20765      63735F73 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 380
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 380
 
 
  20765      74617465 
@@ -22798,7 +22798,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20795 0b4b 44494552 		.ascii	"DIER\000"
  20795      00
  20796              	.LASF927:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 381
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 381
 
 
  20797 0b50 61636378 		.ascii	"accx\000"
@@ -22858,7 +22858,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20827      78737763 
  20827      00
  20828              	.LASF938:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 382
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 382
 
 
  20829 0bd6 63616D5F 		.ascii	"cam_size\000"
@@ -22918,7 +22918,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20855      61747465 
  20855      72795661 
  20855      6C756552 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 383
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 383
 
 
  20855      617700
@@ -22978,7 +22978,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20882              	.LASF976:
  20883 0cf0 655F6765 		.ascii	"e_get_address\000"
  20883      745F6164 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 384
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 384
 
 
  20883      64726573 
@@ -23038,7 +23038,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20913      77696474 
  20913      6800
  20914              	.LASF231:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 385
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 385
 
 
  20915 0d7c 76697274 		.ascii	"virtual_timer_t\000"
@@ -23098,7 +23098,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20944              	.LASF452:
  20945 0e07 636C6561 		.ascii	"clear\000"
  20945      7200
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 386
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 386
 
 
  20946              	.LASF595:
@@ -23158,7 +23158,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  20977 0e97 43414E5F 		.ascii	"CAN_UNINIT\000"
  20977      554E494E 
  20977      495400
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 387
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 387
 
 
  20978              	.LASF769:
@@ -23218,7 +23218,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21007 0f2f 5F637674 		.ascii	"_cvtbuf\000"
  21007      62756600 
  21008              	.LASF861:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 388
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 388
 
 
  21009 0f37 6F75745F 		.ascii	"out_state\000"
@@ -23278,7 +23278,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21035 0fc4 4441435F 		.ascii	"DAC_READY\000"
  21035      52454144 
  21035      5900
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 389
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 389
 
 
  21036              	.LASF796:
@@ -23338,7 +23338,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21064              	.LASF516:
  21065 105a 41444343 		.ascii	"ADCConfig\000"
  21065      6F6E6669 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 390
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 390
 
 
  21065      6700
@@ -23398,7 +23398,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21083      73696F6E 
  21083      2D636F6E 
  21083      7374616E 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 391
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 391
 
 
  21083      7400
@@ -23458,7 +23458,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21111 126a 7264796D 		.ascii	"rdymsg\000"
  21111      736700
  21112              	.LASF78:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 392
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 392
 
 
  21113 1271 5F666E61 		.ascii	"_fnargs\000"
@@ -23518,7 +23518,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21141 1307 73746F70 		.ascii	"stopCurrentMelody\000"
  21141      43757272 
  21141      656E744D 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 393
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 393
 
 
  21141      656C6F64 
@@ -23578,7 +23578,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21168              	.LASF283:
  21169 13a5 7354784D 		.ascii	"sTxMailBox\000"
  21169      61696C42 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 394
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 394
 
 
  21169      6F7800
@@ -23638,7 +23638,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21199      00
  21200              	.LASF673:
  21201 1430 6F717565 		.ascii	"oqueue\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 395
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 395
 
 
  21201      756500
@@ -23698,7 +23698,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21229 14c8 4144435F 		.ascii	"ADC_ACTIVE\000"
  21229      41435449 
  21229      564500
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 396
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 396
 
 
  21230              	.LASF895:
@@ -23758,7 +23758,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21255      45465400 
  21256              	.LASF950:
  21257 1562 69734570 		.ascii	"isEpuckVersion1_3\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 397
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 397
 
 
  21257      75636B56 
@@ -23818,7 +23818,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21285      5F7400
  21286              	.LASF61:
  21287 15f6 5F5F554C 		.ascii	"__ULong\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 398
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 398
 
 
  21287      6F6E6700 
@@ -23878,7 +23878,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21314              	.LASF186:
  21315 168c 74736C69 		.ascii	"tslices_t\000"
  21315      6365735F 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 399
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 399
 
 
  21315      7400
@@ -23938,7 +23938,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21344              	.LASF270:
  21345 171e 4144435F 		.ascii	"ADC_TypeDef\000"
  21345      54797065 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 400
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 400
 
 
  21345      44656600 
@@ -23998,7 +23998,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21374              	.LASF333:
  21375 17b6 444C454E 		.ascii	"DLEN\000"
  21375      00
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 401
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 401
 
 
  21376              	.LASF996:
@@ -24058,7 +24058,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21401 1858 53797374 		.ascii	"SystemCoreClock\000"
  21401      656D436F 
  21401      7265436C 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 402
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 402
 
 
  21401      6F636B00 
@@ -24118,7 +24118,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21429 18f7 6F707465 		.ascii	"opterr\000"
  21429      727200
  21430              	.LASF593:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 403
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 403
 
 
  21431 18fe 444D4152 		.ascii	"DMAR\000"
@@ -24178,7 +24178,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21455      00
  21456              	.LASF911:
  21457 1991 5F637479 		.ascii	"_ctype_\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 404
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 404
 
 
  21457      70655F00 
@@ -24238,7 +24238,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21485 1a1f 6C6F6E67 		.ascii	"long int\000"
  21485      20696E74 
  21485      00
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 405
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 405
 
 
  21486              	.LASF251:
@@ -24298,7 +24298,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21512              	.LASF919:
  21513 1ab7 655F616D 		.ascii	"e_ambient_and_reflected_ir\000"
  21513      6269656E 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 406
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 406
 
 
  21513      745F616E 
@@ -24358,7 +24358,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21545      756500
  21546              	.LASF856:
  21547 1b48 696E5F63 		.ascii	"in_cb\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 407
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 407
 
 
  21547      6200
@@ -24418,7 +24418,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21577      6700
  21578              	.LASF290:
  21579 1bd4 46464131 		.ascii	"FFA1R\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 408
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 408
 
 
  21579      5200
@@ -24478,7 +24478,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21607      4556454E 
  21607      545F4144 
  21607      44524553 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 409
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 409
 
 
  21607      5300
@@ -24538,7 +24538,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21636              	.LASF654:
  21637 1cf9 656E6162 		.ascii	"enabled\000"
  21637      6C656400 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 410
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 410
 
 
  21638              	.LASF980:
@@ -24598,7 +24598,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21662              	.LASF814:
  21663 1dae 44434647 		.ascii	"DCFG\000"
  21663      00
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 411
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 411
 
 
  21664              	.LASF62:
@@ -24658,7 +24658,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21689 1e4c 62756666 		.ascii	"buffer\000"
  21689      657200
  21690              	.LASF147:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 412
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 412
 
 
  21691 1e53 5F676574 		.ascii	"_getdate_err\000"
@@ -24718,7 +24718,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21713      4550305F 
  21713      57414954 
  21713      494E475F 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 413
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 413
 
 
  21713      54583000 
@@ -24778,7 +24778,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21741      656E5F73 
  21741      74617465 
  21741      00
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 414
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 414
 
 
  21742              	.LASF125:
@@ -24838,7 +24838,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21767      4448524D 
  21767      5F313242 
  21767      49545F52 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 415
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 415
 
 
  21767      49474854 
@@ -24898,7 +24898,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21793      6E5F6D65 
  21793      6D637079 
  21793      00
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 416
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 416
 
 
  21794              	.LASF810:
@@ -24958,7 +24958,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21823 215e 63685F73 		.ascii	"ch_system_debug\000"
  21823      79737465 
  21823      6D5F6465 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 417
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 417
 
 
  21823      62756700 
@@ -25018,7 +25018,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21850              	.LASF408:
  21851 21fe 6D757465 		.ascii	"mutex_t\000"
  21851      785F7400 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 418
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 418
 
 
  21852              	.LASF118:
@@ -25078,7 +25078,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21878              	.LASF864:
  21879 228f 55534245 		.ascii	"USBEndpointConfig\000"
  21879      6E64706F 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 419
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 419
 
 
  21879      696E7443 
@@ -25138,7 +25138,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21907      6D5F7400 
  21908              	.LASF225:
  21909 232d 725F7072 		.ascii	"r_prio\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 420
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 420
 
 
  21909      696F00
@@ -25198,7 +25198,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21937      6561645F 
  21937      776100
  21938              	.LASF774:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 421
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 421
 
 
  21939 23cb 44494550 		.ascii	"DIEPINT\000"
@@ -25258,7 +25258,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21964              	.LASF213:
  21965 24a7 705F6D74 		.ascii	"p_mtxlist\000"
  21965      786C6973 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 422
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 422
 
 
  21965      7400
@@ -25318,7 +25318,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  21992              	.LASF688:
  21993 253b 53444344 		.ascii	"SDCDriver\000"
  21993      72697665 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 423
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 423
 
 
  21993      7200
@@ -25378,7 +25378,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  22021      00
  22022              	.LASF788:
  22023 25c7 47525354 		.ascii	"GRSTCTL\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 424
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 424
 
 
  22023      43544C00 
@@ -25438,7 +25438,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  22051      00
  22052              	.LASF12:
  22053 2657 6C6F6E67 		.ascii	"long long int\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 425
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 425
 
 
  22053      206C6F6E 
@@ -25498,7 +25498,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  22075 2717 5F6C6F63 		.ascii	"_locale\000"
  22075      616C6500 
  22076              	.LASF190:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 426
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 426
 
 
  22077 271f 6576656E 		.ascii	"eventflags_t\000"
@@ -25558,7 +25558,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  22105 27a4 424C4B5F 		.ascii	"BLK_SYNCING\000"
  22105      53594E43 
  22105      494E4700 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 427
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 427
 
 
  22106              	.LASF477:
@@ -25618,7 +25618,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  22132              	.LASF167:
  22133 2843 70617261 		.ascii	"parameter_list\000"
  22133      6D657465 
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 428
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 428
 
 
  22133      725F6C69 
@@ -25678,7 +25678,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  22162              	.LASF594:
  22163 28cd 43434D52 		.ascii	"CCMR3\000"
  22163      3300
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 429
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 429
 
 
  22164              	.LASF15:
@@ -25738,7 +25738,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  22193      7400
  22194              	.LASF93:
  22195 2957 5F726561 		.ascii	"_read\000"
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 430
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 430
 
 
  22195      6400
@@ -25798,7 +25798,7 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  22223      53544F50 
  22223      00
  22224              	.LASF962:
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 431
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 431
 
 
  22225 29f2 655F7365 		.ascii	"e_set_steps_left\000"
@@ -25843,118 +25843,118 @@ ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 1
  22245      74617465 
  22245      5F7400
  22246              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 432
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 432
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 Asercom.c
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:18     .text.run_asercom:00000000 $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:26     .text.run_asercom:00000000 run_asercom
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:208    .text.run_asercom:000000f6 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:219    .text.run_asercom:0000010a $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:442    .text.run_asercom:00000248 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:453    .text.run_asercom:0000025c $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:530    .text.run_asercom:000002c0 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4887   .bss.buffer:00000000 buffer
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:551    .text.run_asercom:00000308 $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:786    .text.run_asercom:0000044e $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:841    .text.run_asercom:000004bc $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:965    .text.run_asercom:00000584 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:979    .text.run_asercom:000005b4 $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:1490   .text.run_asercom:000008d4 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:1499   .text.run_asercom:000008f0 $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:1883   .text.run_asercom:00000b80 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:1894   .text.run_asercom:00000b9c $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:1916   .text.run_asercom:00000bc4 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:1968   .text.run_asercom:00000c94 $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:2309   .text.run_asercom:00000eca $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:2314   .text.run_asercom:00000ed4 $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:2381   .text.run_asercom:00000f50 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:2407   .text.run_asercom:00000fb0 $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:2897   .text.run_asercom:00001310 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:2918   .text.run_asercom:0000135c $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:3336   .text.run_asercom:000015d4 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:3374   .text.run_asercom:00001664 $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:3799   .text.run_asercom:00001934 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:3822   .text.run_asercom:00001984 $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4268   .text.run_asercom:00001c68 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4285   .text.run_asercom:00001ca4 $t
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4800   .text.run_asercom:00001fd8 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4960   .bss.e_ambient_and_reflected_ir:00000000 e_ambient_and_reflected_ir
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4966   .bss.e_ambient_ir:00000000 e_ambient_ir
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4893   .bss.c:00000000 c
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5042   .bss.selector:00000000 selector
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4842   .bss.LED_action.12669:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4846   .bss.LED_action.12669:00000000 LED_action.12669
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4849   .bss.LED_nbr.12668:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4853   .bss.LED_nbr.12668:00000000 LED_nbr.12668
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4856   .bss.accelero.12692:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4860   .bss.accelero.12692:00000000 accelero.12692
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4863   .bss.accx.12670:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4867   .bss.accx.12670:00000000 accx.12670
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4870   .bss.accy.12671:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4874   .bss.accy.12671:00000000 accy.12671
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4877   .bss.accz.12672:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4881   .bss.accz.12672:00000000 accz.12672
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4884   .bss.buffer:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4894   .bss.c:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4899   .bss.c1.12658:00000000 c1.12658
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4900   .bss.c1.12658:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4905   .bss.c2.12659:00000000 c2.12659
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4906   .bss.c2.12659:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4908   .bss.cam_heigth.12679:00000000 $d
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 433
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:18     .text.run_asercom:00000000 $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:26     .text.run_asercom:00000000 run_asercom
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:208    .text.run_asercom:000000f6 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:219    .text.run_asercom:0000010a $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:442    .text.run_asercom:00000248 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:453    .text.run_asercom:0000025c $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:530    .text.run_asercom:000002c0 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4887   .bss.buffer:00000000 buffer
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:551    .text.run_asercom:00000308 $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:786    .text.run_asercom:0000044e $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:841    .text.run_asercom:000004bc $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:965    .text.run_asercom:00000584 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:979    .text.run_asercom:000005b4 $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:1490   .text.run_asercom:000008d4 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:1499   .text.run_asercom:000008f0 $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:1883   .text.run_asercom:00000b80 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:1894   .text.run_asercom:00000b9c $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:1916   .text.run_asercom:00000bc4 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:1968   .text.run_asercom:00000c94 $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:2309   .text.run_asercom:00000eca $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:2314   .text.run_asercom:00000ed4 $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:2381   .text.run_asercom:00000f50 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:2407   .text.run_asercom:00000fb0 $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:2897   .text.run_asercom:00001310 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:2918   .text.run_asercom:0000135c $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:3336   .text.run_asercom:000015d4 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:3374   .text.run_asercom:00001664 $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:3799   .text.run_asercom:00001934 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:3822   .text.run_asercom:00001984 $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4268   .text.run_asercom:00001c68 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4285   .text.run_asercom:00001ca4 $t
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4800   .text.run_asercom:00001fd8 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4960   .bss.e_ambient_and_reflected_ir:00000000 e_ambient_and_reflected_ir
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4966   .bss.e_ambient_ir:00000000 e_ambient_ir
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4893   .bss.c:00000000 c
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5042   .bss.selector:00000000 selector
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4842   .bss.LED_action.12669:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4846   .bss.LED_action.12669:00000000 LED_action.12669
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4849   .bss.LED_nbr.12668:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4853   .bss.LED_nbr.12668:00000000 LED_nbr.12668
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4856   .bss.accelero.12692:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4860   .bss.accelero.12692:00000000 accelero.12692
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4863   .bss.accx.12670:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4867   .bss.accx.12670:00000000 accx.12670
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4870   .bss.accy.12671:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4874   .bss.accy.12671:00000000 accy.12671
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4877   .bss.accz.12672:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4881   .bss.accz.12672:00000000 accz.12672
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4884   .bss.buffer:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4894   .bss.c:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4899   .bss.c1.12658:00000000 c1.12658
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4900   .bss.c1.12658:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4905   .bss.c2.12659:00000000 c2.12659
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4906   .bss.c2.12659:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4908   .bss.cam_heigth.12679:00000000 $d
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 433
 
 
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4912   .bss.cam_heigth.12679:00000000 cam_heigth.12679
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4915   .bss.cam_mode.12677:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4919   .bss.cam_mode.12677:00000000 cam_mode.12677
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4922   .bss.cam_size.12681:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4926   .bss.cam_size.12681:00000000 cam_size.12681
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4929   .bss.cam_width.12678:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4933   .bss.cam_width.12678:00000000 cam_width.12678
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4936   .bss.cam_x1.12682:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4940   .bss.cam_x1.12682:00000000 cam_x1.12682
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4943   .bss.cam_y1.12683:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4947   .bss.cam_y1.12683:00000000 cam_y1.12683
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4950   .bss.cam_zoom.12680:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4954   .bss.cam_zoom.12680:00000000 cam_zoom.12680
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4957   .bss.e_ambient_and_reflected_ir:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4963   .bss.e_ambient_ir:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4972   .bss.first.12684:00000000 first.12684
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4973   .bss.first.12684:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4975   .bss.gyrox.12674:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4979   .bss.gyrox.12674:00000000 gyrox.12674
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4982   .bss.gyroy.12675:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4986   .bss.gyroy.12675:00000000 gyroy.12675
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4989   .bss.gyroz.12676:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4993   .bss.gyroz.12676:00000000 gyroz.12676
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:4996   .bss.i.12661:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5000   .bss.i.12661:00000000 i.12661
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5003   .bss.j.12662:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5007   .bss.j.12662:00000000 j.12662
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5010   .bss.mod.12686:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5014   .bss.mod.12686:00000000 mod.12686
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5017   .bss.positionl.12667:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5021   .bss.positionl.12667:00000000 positionl.12667
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5024   .bss.positionr.12666:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5028   .bss.positionr.12666:00000000 positionr.12666
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5031   .bss.reg.12687:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5035   .bss.reg.12687:00000000 reg.12687
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5038   .bss.selector:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5045   .bss.sound.12673:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5049   .bss.sound.12673:00000000 sound.12673
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5052   .bss.speedl.12665:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5056   .bss.speedl.12665:00000000 speedl.12665
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5059   .bss.speedr.12664:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5063   .bss.speedr.12664:00000000 speedr.12664
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5066   .bss.val.12688:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5070   .bss.val.12688:00000000 val.12688
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5076   .bss.wait_cam.12660:00000000 wait_cam.12660
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5077   .bss.wait_cam.12660:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5079   .data.HWversion.12695:00000000 $d
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5083   .data.HWversion.12695:00000000 HWversion.12695
-C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s:5086   .rodata.run_asercom.str1.4:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4912   .bss.cam_heigth.12679:00000000 cam_heigth.12679
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4915   .bss.cam_mode.12677:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4919   .bss.cam_mode.12677:00000000 cam_mode.12677
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4922   .bss.cam_size.12681:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4926   .bss.cam_size.12681:00000000 cam_size.12681
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4929   .bss.cam_width.12678:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4933   .bss.cam_width.12678:00000000 cam_width.12678
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4936   .bss.cam_x1.12682:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4940   .bss.cam_x1.12682:00000000 cam_x1.12682
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4943   .bss.cam_y1.12683:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4947   .bss.cam_y1.12683:00000000 cam_y1.12683
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4950   .bss.cam_zoom.12680:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4954   .bss.cam_zoom.12680:00000000 cam_zoom.12680
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4957   .bss.e_ambient_and_reflected_ir:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4963   .bss.e_ambient_ir:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4972   .bss.first.12684:00000000 first.12684
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4973   .bss.first.12684:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4975   .bss.gyrox.12674:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4979   .bss.gyrox.12674:00000000 gyrox.12674
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4982   .bss.gyroy.12675:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4986   .bss.gyroy.12675:00000000 gyroy.12675
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4989   .bss.gyroz.12676:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4993   .bss.gyroz.12676:00000000 gyroz.12676
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:4996   .bss.i.12661:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5000   .bss.i.12661:00000000 i.12661
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5003   .bss.j.12662:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5007   .bss.j.12662:00000000 j.12662
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5010   .bss.mod.12686:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5014   .bss.mod.12686:00000000 mod.12686
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5017   .bss.positionl.12667:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5021   .bss.positionl.12667:00000000 positionl.12667
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5024   .bss.positionr.12666:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5028   .bss.positionr.12666:00000000 positionr.12666
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5031   .bss.reg.12687:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5035   .bss.reg.12687:00000000 reg.12687
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5038   .bss.selector:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5045   .bss.sound.12673:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5049   .bss.sound.12673:00000000 sound.12673
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5052   .bss.speedl.12665:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5056   .bss.speedl.12665:00000000 speedl.12665
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5059   .bss.speedr.12664:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5063   .bss.speedr.12664:00000000 speedr.12664
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5066   .bss.val.12688:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5070   .bss.val.12688:00000000 val.12688
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5076   .bss.wait_cam.12660:00000000 wait_cam.12660
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5077   .bss.wait_cam.12660:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5079   .data.HWversion.12695:00000000 $d
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5083   .data.HWversion.12695:00000000 HWversion.12695
+C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s:5086   .rodata.run_asercom.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 e_init_motors
@@ -25963,7 +25963,7 @@ e_i2cp_init
 e_init_remote_control
 ReadEE
 e_poxxxx_init_cam
-ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccskK32M.s 			page 434
+ARM GAS  C:\Users\Valentin\AppData\Local\Temp\ccuyqoCb.s 			page 434
 
 
 e_poxxxx_config_cam

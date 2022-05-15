@@ -10,7 +10,6 @@
 #include <string.h>
 #include <math.h>
 
-
 #include <motors.h>
 #include <leds.h>
 #include <selector.h>
@@ -28,6 +27,10 @@
 #include <color.h>
 #include <button.h>
 #include <audio/microphone.h>
+#include "audio/play_melody.h"
+#include "audio/play_sound_file.h"
+
+
 
 
 static THD_WORKING_AREA(waThd_main_function, 2048);
@@ -43,24 +46,36 @@ static THD_FUNCTION(Thd_main_function, arg) { // @suppress("No return")
 		switch (selector){
 			case 0: // Labyrinthe
 				if(button_get_state()){
-					clean_tab();
 					explore_maze();
 				}
 				break;
 			case 1:
 				if(button_get_state()){
-					EP_call_home();
+					ckeck_robot();
+					chThdSleepMilliseconds(100);
 				}
 				break;
 			case 2:
 				if(button_get_state()){
-					print_tab();
+					chThdSleepMilliseconds(1000);
+					set_rgb_all_leds(RED);
+					chThdSleepMilliseconds(1000);
+					set_rgb_all_leds(BLUE);
+					chThdSleepMilliseconds(1000);
+					set_rgb_all_leds(GREEN);
+					chThdSleepMilliseconds(1000);
+					set_rgb_all_leds(BLACK);
+					spin(SPEED_FAST, 5);
+					playMelody(SEVEN_NATION_ARMY, ML_SIMPLE_PLAY, NULL);
+					chThdSleepMilliseconds(1000);
+
 				}
 				break;
 			case 3:
-				if(button_get_state()){
-					ckeck_robot();
-					chThdSleepMilliseconds(100);
+				if (button_get_state()){
+					set_body_led(0);
+					int color = get_main_color();
+					set_rgb_all_leds(color);
 				}
 				break;
 			default:

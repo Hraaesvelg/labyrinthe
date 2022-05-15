@@ -1,7 +1,4 @@
 
-#This is a template to build your own project with the e-puck2_main-processor folder as a library.
-#Simply adapt the lines below to be able to compile
-
 # Define project name here
 PROJECT = Labyrinthe
 

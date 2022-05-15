@@ -105,20 +105,18 @@ void show_panic(int speed, int number){
 				right_motor_set_speed(speed);
 				left_motor_set_speed(-speed);
 		}
+
+	}
+	right_motor_set_pos(0);
+	left_motor_set_pos(0);
+	while (left_motor_get_pos() < PERIMETER_EPUCK/16 && right_motor_get_pos() < PERIMETER_EPUCK/16){
+		right_motor_set_speed(-speed);
+		left_motor_set_speed(speed);
 	}
 	stopMotors();
 	leds_think(number);
 }
 
-void turn_angle(int angle, int speed){
-	int wanted_dist = angle * 360 / PERIMETER_EPUCK;
-	right_motor_set_pos(0);
-	left_motor_set_pos(0);
-	while (left_motor_get_pos() < wanted_dist && right_motor_get_pos() < wanted_dist){
-		right_motor_set_speed(-speed);
-		left_motor_set_speed(speed);
-	}
-}
 
 void deviation_robot(int speedD, int speedG){
 	left_motor_set_speed(speedG);

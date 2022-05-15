@@ -151,6 +151,8 @@ build/obj/actionUser.o: actionUser.c \
  C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/audio/audio_thread.h \
  C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/audio/play_melody.h \
  C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/audio/play_sound_file.h \
+ C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/audio/microphone.h \
+ C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/audio/mp45dt02_processing.h \
  C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/sensors/battery_level.h \
  C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/sensors/mpu9250.h \
  C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/sensors/mpu9250_registers.h \
@@ -462,6 +464,10 @@ C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src
 C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/audio/play_melody.h:
 
 C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/audio/play_sound_file.h:
+
+C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/audio/microphone.h:
+
+C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/audio/mp45dt02_processing.h:
 
 C:\Users\Valentin\Desktop\Microinformatique-TP\autres\e-puck2_main-processor/src/sensors/battery_level.h:
 

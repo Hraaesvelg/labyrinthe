@@ -20,14 +20,12 @@
 #include "audio/audio_thread.h"
 #include "audio/play_melody.h"
 #include "audio/play_sound_file.h"
+#include "audio/microphone.h"
 #include <sensors/battery_level.h>
 #include <sensors/mpu9250.h>
 #include <sensors/imu.h>
 #include "button.h"
 
-#define size_tab 100
-
-static int tab_path[size_tab] = {0};
 
 void blink_all_leds(int number){
 	clear_leds();
@@ -111,7 +109,7 @@ void all_leds_off(void){
 
 void attack_target(void){
 	all_leds_red();
-	move_str_dist(5, 1000);
+	move_str_dist(5, SPEED_FAST);
 	all_leds_off();
 	set_body_led(1);
 	chThdSleepMilliseconds(300);
@@ -178,17 +176,17 @@ int front_dist_ir(void){
 }
 
 void explore_maze(void){
+	set_rgb_all_leds(BLACK);
 	playMelody(MARIO_START, ML_SIMPLE_PLAY, NULL);
 	calibration();
 
-	int pos_tab = 0;
+
 	int end_found = 0;
+
 	chprintf((BaseSequentialStream *)&SD3, "Entrée parcours labyrinthe = %d \r\n", 1);
-	left_motor_set_pos(0);
 
-	while((pos_tab < size_tab)&&(!end_found)&&(!button_get_state())){
+	while((!end_found)&&(!button_get_state())){
 		int front_dist = front_dist_ir();
-
 		if(front_dist < 400){
 			int distdroite = get_prox(1);
 			int distgauche = get_prox(6);
@@ -198,12 +196,12 @@ void explore_maze(void){
 				distdroite = get_prox(1);
 			}
 			if (distgauche > 300){
-				deviation_robot(100, 200);
+				deviation_robot(100, 250);
 				chThdSleepMilliseconds(100);
 				distgauche = get_prox(6);
 			}
 			stopMotors();
-			go_straight(500);
+			go_straight(SPEED_MIDDLE);
 		}
 		else if((get_main_color() == GREEN)||(get_main_color() == RED)||(get_main_color() == BLUE)){
 			stopMotors();
@@ -211,8 +209,12 @@ void explore_maze(void){
 			chprintf((BaseSequentialStream *)&SD3, " couleur = %d \r", couleur);
 			display_color_led();
 			if (couleur == RED){
+				chThdSleepMilliseconds(700);
 				attack_target();
 				stopMotors();
+				playMelody(RUSSIA, ML_SIMPLE_PLAY, NULL);
+				chThdSleepMilliseconds(700);
+
 			}
 			else if(couleur == GREEN){
 				stopMotors();
@@ -226,67 +228,33 @@ void explore_maze(void){
 		}
 		else{
 			stopMotors();
-
-			tab_path[pos_tab] = left_motor_get_pos();
 			int proxD = get_prox(2);
 			int proxG = get_prox(5);
 			if(proxD < 150){
-				turn_right(300);
-				tab_path[pos_tab+1] = 1;
+				turn_right(SPEED_SLOW);
 				stopMotors();
 			}
 			else if(proxG < 150)
 			{
-				turn_left(300);
-				tab_path[pos_tab] = 2;
+				turn_left(SPEED_SLOW);
 				stopMotors();
 			}
 			else{
-				u_turn(300);
-				tab_path[pos_tab] = 3;
+				u_turn(SPEED_SLOW);
 				stopMotors();
 			}
 			left_motor_set_pos(0);
-			pos_tab += 2;
 		}
 		chThdSleepMilliseconds(100);
 	}
 	stopMotors();
 }
 
-void EP_call_home(){
-	u_turn(500);
-	chprintf((BaseSequentialStream *)&SD3, " Entrée tableau= %d \r\n", 1);
-	for(int i = size_tab ; i > 0; i-=2){
-		move_str_from_pos(tab_path[i-1], 1000);
-		if(tab_path[i] == RIGHT)
-		{
-			turn_left(500);
-			stopMotors();
-		}
-		else if(tab_path[i] == LEFT)
-		{
-			turn_right(500);
-			stopMotors();
-		}
-		else if(tab_path[i] == UTURN){
-			u_turn(500);
-		}
-		else{
-			all_leds_red();
-		}
-		all_leds_off();
-	}
-	stopMotors();
-	set_body_led(1);
-	u_turn(500);
-	show_panic(300, 3);
-}
 
 void calibration(void){
 	int dist = VL53L0X_get_dist_mm();
 	while(dist < 100){
-		turn_right(300);
+		turn_right(SPEED_SLOW);
 		chThdSleepMilliseconds(100);
 		stopMotors();
 		dist = VL53L0X_get_dist_mm();
@@ -294,7 +262,7 @@ void calibration(void){
 	chThdSleepMilliseconds(500);
 	int diff = get_prox(6) - get_prox(1);
 	while(diff > 150){
-		turn_right(200);
+		turn_right(SPEED_SLOW);
 		chThdSleepMilliseconds(50);
 		stopMotors();
 		diff = get_prox(6) - get_prox(1);
@@ -308,23 +276,10 @@ void calibration(void){
 		set_body_led(0);
 	}
 }
-void clean_tab(void){
-	for(int i = 0; i<size_tab; i++){
-		tab_path[i] = 0;
-	}
-}
 
-void print_tab(void){
-	for(int i = size_tab; i>0; i-=2){
-		chprintf((BaseSequentialStream *)&SD3, "distance a faire = %d \r", tab_path[i-1]);
-		chprintf((BaseSequentialStream *)&SD3, "prochain virage = %d \r\n", tab_path[i]);
-
-	}
-}
 
 void ckeck_robot(void){
 	chprintf((BaseSequentialStream *)&SD3, "Batterie=%d V = %f \r\n", get_battery_raw(), get_battery_voltage());
-	chprintf((BaseSequentialStream *)&SD3, "Temperature ambiante = %d \r\n", get_temperature());
 	chprintf((BaseSequentialStream *)&SD3, "Distance libre devant = %d\r\n", VL53L0X_get_dist_mm());
 	chprintf((BaseSequentialStream *)&SD3, "Mic1 = %d Mic2 = %d Mic3 = %d Mic4 = %d \r\n",
 			mic_get_volume(0), mic_get_volume(1), mic_get_volume(2), mic_get_volume(3));

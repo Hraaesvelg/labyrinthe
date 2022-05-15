@@ -17,6 +17,10 @@
 #define LEFT 2
 #define UTURN 3
 
+#define SPEED_SLOW 200
+#define SPEED_MIDDLE 500
+#define SPEED_FAST 1000
+
  /**
  * @brief   Sets the speed to @speed for both motors during an indefined time
  *
@@ -68,15 +72,32 @@ void spin(int speed, int qty);
 */
 void stopMotors(void);
 
+/**
+* @brief   Smake a small animation to show panic
+*
+* @param	speed    	speed desired in step/s
+* 			number		number of iteration of the animation
+*
+*/
 void show_panic(int speed, int number);
 
-void turn_angle(int angle, int speed);
-
+/**
+* @brief   Allows the robot to have different speeds for each motor. Hence make the robot correct it path by samll steps.
+*
+* @param	speedD    	speed desired in step/s for the right motor
+* 			speedG		speed desired in step/s for the left motor
+*
+*/
 void deviation_robot(int speedD, int speedG);
 
+/**
+* @brief   Sets the speed to @speed for both motors to advance of a certain distance in microsteps
+*
+* @param 	position	distance you want the robot to advance in microsteps
+* 			speed		speed desired in step/s
+*
+*/
 void move_str_from_pos(int position, int speed);
-
-
 
 
 #endif /* USAGEMOTORS_H_ */

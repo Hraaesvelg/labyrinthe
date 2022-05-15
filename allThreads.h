@@ -10,14 +10,11 @@
 
 #include "ch.h"
 
-#define ACTIVE 1
-#define NONACTIVE 0
-
+/**
+* @brief   Lunch the main thread that can select the differents function the robot must make.
+*
+*/
 void main_thread_start(void);
-void enable_thread_motor(void);
-void disable_thread_motor(void);
-uint8_t get_running_motor(void);
-void main_function(void);
 
 
 #endif /* ALLTHREADS_H_ */

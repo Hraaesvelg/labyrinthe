@@ -8,8 +8,7 @@
 #include <camera/po8030.h>
 #include <leds.h>
 #include <spi_comm.h>
-
-
+#include <actionUser.h>
 #include <color.h>
 
 #define IMAGE_BUFFER_SIZE 640
@@ -133,20 +132,20 @@ void display_color_led(void){
 		set_rgb_led(0,10,10,10);
 	}
 	else if(color == RED){
-		set_rgb_led(0,10,0,0);
+		set_rgb_all_leds(RED);
 	}
 	else if(color == BLUE){
-		set_rgb_led(0,0,0,10);
+		set_rgb_all_leds(BLUE);
 	}
 	else if(color == GREEN){
-		set_rgb_led(0,0,10,0);
+		set_rgb_all_leds(GREEN);
 	}
 	else
 	{
-		set_rgb_led(0,0,0,0);
+		set_rgb_all_leds(BLACK);
 	}
 }
 
 void stop_color_display(void){
-	set_rgb_led(0,0,0,0);
+	set_rgb_all_leds(BLACK);
 }
