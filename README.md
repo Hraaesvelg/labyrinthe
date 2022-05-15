@@ -11,7 +11,9 @@ Description:
     Le robot dispose de différentes fonction que l'utilisateur va choisir avec le selecteur. La fonction principale est de sortir d'un labyrinthe 
     Les focntions secondaires consistent en un suivi de source lumineuse ou sonore, ainsi que d'un remonte pente utilisant l'imu.
     
-Les fonction du robot sont listées ci dessous:
+Les fonction du robot sont listees ci dessous (chaque position est etalée sur 4 crans du selecteur:
       - Position 1 : Labyrinthe --> utilise la camera, les leds, capteurs de distance et moteurs
-      - Position 2 : Remonte pente --> utilise les leds, capteurs de distance, imu et moteurs 
+      - Position 2 : Effectue une rapide check des informations de l'environnement du robot
+      - Position 3 : Effectur une petite animation avec musique du robot
+      - Position 4 : Permet une reconnaisance de la couleur faisant face au robot 
       
