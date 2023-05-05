@@ -2,7 +2,7 @@
 
 Projet de microInformatique/Robotique 2022
 
-Créateurs : Louis Gavignet \\
+Créateurs : Louis Gavignet
             Valentin Suppa--Gallezot
             
 Librairie : https://www.gctronic.com/doc/index.php?title=e-puck2_robot_side_development
